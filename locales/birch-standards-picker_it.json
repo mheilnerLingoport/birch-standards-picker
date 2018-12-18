@@ -1,7 +1,12 @@
 {
+  "_LRM_PKTAG946": "birch-standards-picker_1_103 - CHANGES-ONLY",
   "DATE_PLACEHOLDER": "Inserisci una data.",
   "EVENT_DATE_LABEL": "Data dell’evento",
   "EVENT_PLACE_LABEL": "Luogo dell’evento",
+  "HELPLET_DATE": "Inserisci una data in un formato standardizzato corretto.<br /> Esempio: 24 giugno 1962. Si possono anche usare elementi di approssimazione prima della data: Prima del, Circa, Dopo il, Dal e Al.<br/> Esempio: Circa 1962. <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Click to learn more about standardized dates'>Clicca qui per ulteriori informazioni</a>",
+  "HELPLET_PLACE": "Inserisci un luogo in un formato standardizzato corretto.<br/> Esempio: Vicenza, Veneto, Italia.",
+  "HELPLET_STANDARDIZED_DATE": "Se necessario, seleziona la data standardizzata che meglio corrisponde alla data inserita.",
+  "HELPLET_STANDARDIZED_PLACE": "Se necessario, seleziona il luogo standardizzato che meglio corrisponde al luogo inserito.",
   "NONE_OF_THE_ABOVE": "Nessuno dei suddetti",
   "NO_STANDARD_DATE_AVAILABLE": "Data non standard",
   "NO_STANDARD_PLACE_AVAILABLE": "Luogo non standard",
