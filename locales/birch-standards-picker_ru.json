@@ -1,7 +1,12 @@
 {
+  "_LRM_PKTAG816": "birch-standards-picker_1_107 - CHANGES-ONLY",
   "DATE_PLACEHOLDER": "Ввести дату",
   "EVENT_DATE_LABEL": "Дата события",
   "EVENT_PLACE_LABEL": "Местоположение события",
+  "HELPLET_DATE": "Введите дату в правильном стандартизованном формате.<br /> Пример: 24 июня 1962. Перед датами можно использовать указатели: до, около, после, с и по.<br/> Пример: Около 1962. <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Click to learn more about standardized dates'>Для получения дополнительной информации нажмите здесь</a>",
+  "HELPLET_PLACE": "Введите название места в правильном стандартизованном формате.<br/> Пример: Панасовка, Козятинский, Винницкая, Украина.",
+  "HELPLET_STANDARDIZED_DATE": "При необходимости выберите стандартизованную дату, которая более всего соответствует тому, что вы ввели.",
+  "HELPLET_STANDARDIZED_PLACE": "При необходимости выберите стандартизованное название места, которое более всего соответствует тому, что вы ввели.",
   "NONE_OF_THE_ABOVE": "Ничего из вышеперечисленного",
   "NO_STANDARD_DATE_AVAILABLE": "Не стандартизовано",
   "NO_STANDARD_PLACE_AVAILABLE": "Не стандартизовано",
