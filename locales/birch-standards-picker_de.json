@@ -1,7 +1,12 @@
 {
+  "_LRM_PKTAG699": "birch-standards-picker_1_146 - CHANGES-ONLY",
   "DATE_PLACEHOLDER": "Geben Sie ein Datum ein.",
   "EVENT_DATE_LABEL": "Datum des Ereignisses",
   "EVENT_PLACE_LABEL": "Ort des Ereignisses",
+  "HELPLET_DATE": "Geben Sie ein Datum in einem korrekten, standardisierten Format ein.<br /> Beispiel: 24. Juni 1962. Vor dem Datum können auch Bestimmungswörter verwendet werden: vor, um, nach, von und bis.<br/> Beispiel: Um 1962. <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Click to learn more about standardized dates'>Für weitere Informationen hier klicken</a>",
+  "HELPLET_PLACE": "Geben Sie einen Ort in einem korrekten, standardisierten Format ein.<br/> Beispiel: Rochdale, Lancashire, England.",
+  "HELPLET_STANDARDIZED_DATE": "Falls erforderlich, wählen Sie ein standardisiertes Datum aus, das besser zu dem von Ihnen eingegebenen Datum passt.",
+  "HELPLET_STANDARDIZED_PLACE": "Falls erforderlich, wählen Sie einen standardisierten Ort aus, der besser zu dem von Ihnen eingegebenen Ort passt.",
   "NONE_OF_THE_ABOVE": "nichts davon",
   "NO_STANDARD_DATE_AVAILABLE": "Nicht standardisiertes Datum",
   "NO_STANDARD_PLACE_AVAILABLE": "Nicht standardisierter Ort",
