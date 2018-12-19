@@ -1,7 +1,12 @@
 {
+  "_LRM_PKTAG565": "birch-standards-picker_1_108 - CHANGES-ONLY",
   "DATE_PLACEHOLDER": "輸入日期。",
   "EVENT_DATE_LABEL": "事項日期",
   "EVENT_PLACE_LABEL": "事項地點",
+  "HELPLET_DATE": "輸入正確的標準化格式日期。<br />範例：1962年6月24日。亦可在日期中使用修飾詞：之前、大約、之後、自和至。<br/>範例：大約1962年。<a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Click to learn more about standardized dates'>按這裡以取得更多資料</a>",
+  "HELPLET_PLACE": "輸入正確的標準化格式地點。<br/>範例：英格蘭藍開郡羅奇代爾。",
+  "HELPLET_STANDARDIZED_DATE": "如有需要，請選擇與你輸入的日期較相符的標準化日期。",
+  "HELPLET_STANDARDIZED_PLACE": "如有需要，請選擇與你輸入的地點較相符的標準化地點。",
   "NONE_OF_THE_ABOVE": "以上皆非",
   "NO_STANDARD_DATE_AVAILABLE": "非標準化日期",
   "NO_STANDARD_PLACE_AVAILABLE": "非標準化地點",
