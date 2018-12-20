@@ -1,7 +1,12 @@
 {
+  "_LRM_PKTAG824": "birch-standards-picker_1_104 - CHANGES-ONLY",
   "DATE_PLACEHOLDER": "日付を入力してください。",
   "EVENT_DATE_LABEL": "出来事の日付",
   "EVENT_PLACE_LABEL": "出来事の場所",
+  "HELPLET_DATE": "標準化された正確なフォーマットで日付を入力してください。<br />例：1962年6月24日。日付に付けることができる修飾語句：前，約，後，以降，まで。<br/>例：約1962年。<a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Click to learn more about standardized dates'>詳しくは，こちらをクリックしてください</a>",
+  "HELPLET_PLACE": "標準化された正確なフォーマットで地名を入力してください。<br/>例：ロッチデール，ランカシャー，イングランド。",
+  "HELPLET_STANDARDIZED_DATE": "必要であれば，あなたが入力した日付とさらに一致する標準化された日付を選択してください。",
+  "HELPLET_STANDARDIZED_PLACE": "必要であれば，あなたが入力した地名とさらに一致する標準化された地名を選択してください。",
   "NONE_OF_THE_ABOVE": "上記のいずれでもない",
   "NO_STANDARD_DATE_AVAILABLE": "標準化された日付ではありません",
   "NO_STANDARD_PLACE_AVAILABLE": "標準化された場所ではありません",
