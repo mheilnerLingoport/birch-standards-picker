@@ -1,7 +1,12 @@
 {
+  "_LRM_PKTAG388": "birch-standards-picker_1_102 - CHANGES-ONLY",
   "DATE_PLACEHOLDER": "Saisir une date.",
   "EVENT_DATE_LABEL": "Date de l’événement",
   "EVENT_PLACE_LABEL": "Lieu de l’événement",
+  "HELPLET_DATE": "Saisissez une date dans le bon format normalisé.<br /> Exemple : 24 juin 1962 On peut également utiliser des prépositions devant une date comme : Avant, Environ, Après, De, À.<br/> Exemple : Environ 1962. <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Click to learn more about standardized dates'>Cliquez ici pour plus de renseignements</a>",
+  "HELPLET_PLACE": "Saisissez un nom de lieu dans le bon format normalisé.<br/> Example : Rochdale, Landcashire, Angleterre.",
+  "HELPLET_STANDARDIZED_DATE": "Si nécessaire, sélectionnez une date normalisée qui correspond le mieux à celle que vous avez saisie.",
+  "HELPLET_STANDARDIZED_PLACE": "Si nécessaire, sélectionnez un nom de lieu normalisé qui correspond le mieux à celui que vous avez saisi.",
   "NONE_OF_THE_ABOVE": "Aucune des réponses précédentes",
   "NO_STANDARD_DATE_AVAILABLE": "Date non normalisée",
   "NO_STANDARD_PLACE_AVAILABLE": "Lieu non normalisé",
