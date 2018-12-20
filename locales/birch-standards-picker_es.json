@@ -1,7 +1,12 @@
 {
+  "_LRM_PKTAG412": "birch-standards-picker_1_101 - CHANGES-ONLY",
   "DATE_PLACEHOLDER": "Ingresa una fecha.",
   "EVENT_DATE_LABEL": "Fecha del acontecimiento",
   "EVENT_PLACE_LABEL": "Lugar del acontecimiento",
+  "HELPLET_DATE": "Ingresa una fecha con el formato estandarizado correcto.<br /> Ejemplo: 24 de junio de 1962. También pueden utilizarse modificadores antes de la fecha: Antes de, Alrededor de, Después de, Desde y Hasta.<br/> Ejemplo: Alrededor de 1962. <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Click to learn more about standardized dates'>Haz clic aquí para obtener más información</a>",
+  "HELPLET_PLACE": "Ingresa un lugar con el formato estandarizado correcto.<br/> Ejemplo: Rochdale, Landcashire, Inglaterra.",
+  "HELPLET_STANDARDIZED_DATE": "Si es necesario, selecciona la fecha estandarizada que concuerde mejor con la fecha que has ingresado.",
+  "HELPLET_STANDARDIZED_PLACE": "Si es necesario, selecciona el lugar estandarizado que concuerde mejor con el lugar que has ingresado.",
   "NONE_OF_THE_ABOVE": "Ninguna de las anteriores",
   "NO_STANDARD_DATE_AVAILABLE": "Fecha no estandarizada",
   "NO_STANDARD_PLACE_AVAILABLE": "Lugar no estandarizado",
