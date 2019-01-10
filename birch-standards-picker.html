@@ -884,7 +884,7 @@ The following custom properties and mixins are available for styling:
             }
           }
           if(data.standardText !== this.$.typeahead.value){
-            data.customText = this.searchTerm;
+            data.customText = this.$.typeahead.value;
           }
           data.canceled = true;
           this._updateData(data);
