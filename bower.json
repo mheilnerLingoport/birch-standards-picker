@@ -1,6 +1,6 @@
 {
   "name": "birch-standards-picker",
-  "version": "2.14.2",
+  "version": "2.14.3",
   "description": "A picker for the FamilySearch date/place standards",
   "main": [
     "birch-standards-picker.html",
@@ -26,7 +26,7 @@
     "paper-listbox": "PolymerElements/paper-listbox#1 - 2",
     "fs-metrics": "fs-webdev/fs-metrics#1.x",
     "fs-icons": "fs-webdev/fs-icons#1.x",
-    "fs-helplet": "fs-webdev/fs-helplet#0.x"
+    "fs-helplet": "fs-webdev/fs-helplet#^1"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#1 - 2",
