@@ -11,7 +11,7 @@
   "NONE_OF_THE_ABOVE":"None of the above",
   "STANDARDIZED_PLACE": "Standardized Place",
   "STANDARDIZED_DATE": "Standardized Date",
-  "HELPLET_DATE": "Enter a date in a correct standardized format.<br /> Example: 24 June 1962. Modifieres can also be used before the date: Before, About, After, From and To.<br/> Example: About 1962. <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Click to learn more about standardized dates'>Click here for more information</a>",
+  "HELPLET_DATE": "Enter a date in a correct standardized format.<br /> Example: 24 June 1962. Modifiers can also be used before the date: Before, About, After, From and To.<br/> Example: About 1962. <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Click to learn more about standardized dates'>Click here for more information</a>.",
   "HELPLET_PLACE": "Enter a place in a correct standardized format.<br/> Example: Rochdale, Landcashire, England.",
   "HELPLET_STANDARDIZED_DATE": "If needed, select a standardized date that better matches the date you entered.",
   "HELPLET_STANDARDIZED_PLACE": "If needed, select a standardized place that better matches the place you entered."
