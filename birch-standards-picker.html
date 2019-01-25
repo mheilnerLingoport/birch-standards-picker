@@ -49,20 +49,25 @@ The following custom properties and mixins are available for styling:
         font-family: Verdana;
         color: #666662;
       }
+
       [hidden] {
         display: none !important;
       }
+
       .standard-container {
         position: relative;
       }
+
       .standard-container .standards-inner-container {
         margin: 0;
         padding-top: 10px;
         min-height: 40px;
       }
+
       .status-container {
         height: 14px;
       }
+
       #optionsMenu {
         position: absolute;
         z-index: 100000;
@@ -77,10 +82,12 @@ The following custom properties and mixins are available for styling:
         border: 1px solid #bab7b1;
         border-radius: 4px;
       }
+
       #optionsMenuWrapper {
         position: relative;
         margin-top: 12px;
       }
+
       #optionsMenuWrapper:after, #optionsMenuWrapper:before {
         bottom: -1px;
         left: 30px;
@@ -91,19 +98,22 @@ The following custom properties and mixins are available for styling:
         position: absolute;
         pointer-events: none;
       }
+
       #optionsMenuWrapper:after {
         border-color: rgba(255, 255, 255, 0);
-        border-bottom-color: #ffffff;
+        border-bottom-color: #fff;
         border-width: 12px;
         margin-left: -12px;
         z-index: 100001;
       }
+
       #optionsMenuWrapper:before {
         border-color: rgba(186, 183, 177, 0);
         border-bottom-color: #bab7b1;
         border-width: 13px;
         margin-left: -13px;
       }
+
       .label-text {
         padding-left: 2px;
         width: 85%;
@@ -112,26 +122,30 @@ The following custom properties and mixins are available for styling:
         text-overflow: ellipsis;
         vertical-align: middle;
       }
+
       .standardIcon {
         margin: 0 6px;
       }
+
       .carat {
         vertical-align: top;
         position: absolute;
         right: 10px;
       }
+
       .loading {
         height: 20px;
         width: 20px;
         background-size: 20px 20px;
-        background-color: #ffffff;
+        background-color: #fff;
         background-image: url(data:image/gif;base64,R0lGODlhIAAgAPMAAP///wAAAMbGxoSEhLa2tpqamjY2NlZWVtjY2OTk5Ly8vB4eHgQEBAAAAAAAAAAAACH5BAkKAAAAIf4aQ3JlYXRlZCB3aXRoIGFqYXhsb2FkLmluZm8AIf8LTkVUU0NBUEUyLjADAQAAACwAAAAAIAAgAAAE5xDISWlhperN52JLhSSdRgwVo1ICQZRUsiwHpTJT4iowNS8vyW2icCF6k8HMMBkCEDskxTBDAZwuAkkqIfxIQyhBQBFvAQSDITM5VDW6XNE4KagNh6Bgwe60smQUB3d4Rz1ZBApnFASDd0hihh12BkE9kjAJVlycXIg7CQIFA6SlnJ87paqbSKiKoqusnbMdmDC2tXQlkUhziYtyWTxIfy6BE8WJt5YJvpJivxNaGmLHT0VnOgSYf0dZXS7APdpB309RnHOG5gDqXGLDaC457D1zZ/V/nmOM82XiHRLYKhKP1oZmADdEAAAh+QQJCgAAACwAAAAAIAAgAAAE6hDISWlZpOrNp1lGNRSdRpDUolIGw5RUYhhHukqFu8DsrEyqnWThGvAmhVlteBvojpTDDBUEIFwMFBRAmBkSgOrBFZogCASwBDEY/CZSg7GSE0gSCjQBMVG023xWBhklAnoEdhQEfyNqMIcKjhRsjEdnezB+A4k8gTwJhFuiW4dokXiloUepBAp5qaKpp6+Ho7aWW54wl7obvEe0kRuoplCGepwSx2jJvqHEmGt6whJpGpfJCHmOoNHKaHx61WiSR92E4lbFoq+B6QDtuetcaBPnW6+O7wDHpIiK9SaVK5GgV543tzjgGcghAgAh+QQJCgAAACwAAAAAIAAgAAAE7hDISSkxpOrN5zFHNWRdhSiVoVLHspRUMoyUakyEe8PTPCATW9A14E0UvuAKMNAZKYUZCiBMuBakSQKG8G2FzUWox2AUtAQFcBKlVQoLgQReZhQlCIJesQXI5B0CBnUMOxMCenoCfTCEWBsJColTMANldx15BGs8B5wlCZ9Po6OJkwmRpnqkqnuSrayqfKmqpLajoiW5HJq7FL1Gr2mMMcKUMIiJgIemy7xZtJsTmsM4xHiKv5KMCXqfyUCJEonXPN2rAOIAmsfB3uPoAK++G+w48edZPK+M6hLJpQg484enXIdQFSS1u6UhksENEQAAIfkECQoAAAAsAAAAACAAIAAABOcQyEmpGKLqzWcZRVUQnZYg1aBSh2GUVEIQ2aQOE+G+cD4ntpWkZQj1JIiZIogDFFyHI0UxQwFugMSOFIPJftfVAEoZLBbcLEFhlQiqGp1Vd140AUklUN3eCA51C1EWMzMCezCBBmkxVIVHBWd3HHl9JQOIJSdSnJ0TDKChCwUJjoWMPaGqDKannasMo6WnM562R5YluZRwur0wpgqZE7NKUm+FNRPIhjBJxKZteWuIBMN4zRMIVIhffcgojwCF117i4nlLnY5ztRLsnOk+aV+oJY7V7m76PdkS4trKcdg0Zc0tTcKkRAAAIfkECQoAAAAsAAAAACAAIAAABO4QyEkpKqjqzScpRaVkXZWQEximw1BSCUEIlDohrft6cpKCk5xid5MNJTaAIkekKGQkWyKHkvhKsR7ARmitkAYDYRIbUQRQjWBwJRzChi9CRlBcY1UN4g0/VNB0AlcvcAYHRyZPdEQFYV8ccwR5HWxEJ02YmRMLnJ1xCYp0Y5idpQuhopmmC2KgojKasUQDk5BNAwwMOh2RtRq5uQuPZKGIJQIGwAwGf6I0JXMpC8C7kXWDBINFMxS4DKMAWVWAGYsAdNqW5uaRxkSKJOZKaU3tPOBZ4DuK2LATgJhkPJMgTwKCdFjyPHEnKxFCDhEAACH5BAkKAAAALAAAAAAgACAAAATzEMhJaVKp6s2nIkolIJ2WkBShpkVRWqqQrhLSEu9MZJKK9y1ZrqYK9WiClmvoUaF8gIQSNeF1Er4MNFn4SRSDARWroAIETg1iVwuHjYB1kYc1mwruwXKC9gmsJXliGxc+XiUCby9ydh1sOSdMkpMTBpaXBzsfhoc5l58Gm5yToAaZhaOUqjkDgCWNHAULCwOLaTmzswadEqggQwgHuQsHIoZCHQMMQgQGubVEcxOPFAcMDAYUA85eWARmfSRQCdcMe0zeP1AAygwLlJtPNAAL19DARdPzBOWSm1brJBi45soRAWQAAkrQIykShQ9wVhHCwCQCACH5BAkKAAAALAAAAAAgACAAAATrEMhJaVKp6s2nIkqFZF2VIBWhUsJaTokqUCoBq+E71SRQeyqUToLA7VxF0JDyIQh/MVVPMt1ECZlfcjZJ9mIKoaTl1MRIl5o4CUKXOwmyrCInCKqcWtvadL2SYhyASyNDJ0uIiRMDjI0Fd30/iI2UA5GSS5UDj2l6NoqgOgN4gksEBgYFf0FDqKgHnyZ9OX8HrgYHdHpcHQULXAS2qKpENRg7eAMLC7kTBaixUYFkKAzWAAnLC7FLVxLWDBLKCwaKTULgEwbLA4hJtOkSBNqITT3xEgfLpBtzE/jiuL04RGEBgwWhShRgQExHBAAh+QQJCgAAACwAAAAAIAAgAAAE7xDISWlSqerNpyJKhWRdlSAVoVLCWk6JKlAqAavhO9UkUHsqlE6CwO1cRdCQ8iEIfzFVTzLdRAmZX3I2SfZiCqGk5dTESJeaOAlClzsJsqwiJwiqnFrb2nS9kmIcgEsjQydLiIlHehhpejaIjzh9eomSjZR+ipslWIRLAgMDOR2DOqKogTB9pCUJBagDBXR6XB0EBkIIsaRsGGMMAxoDBgYHTKJiUYEGDAzHC9EACcUGkIgFzgwZ0QsSBcXHiQvOwgDdEwfFs0sDzt4S6BK4xYjkDOzn0unFeBzOBijIm1Dgmg5YFQwsCMjp1oJ8LyIAACH5BAkKAAAALAAAAAAgACAAAATwEMhJaVKp6s2nIkqFZF2VIBWhUsJaTokqUCoBq+E71SRQeyqUToLA7VxF0JDyIQh/MVVPMt1ECZlfcjZJ9mIKoaTl1MRIl5o4CUKXOwmyrCInCKqcWtvadL2SYhyASyNDJ0uIiUd6GGl6NoiPOH16iZKNlH6KmyWFOggHhEEvAwwMA0N9GBsEC6amhnVcEwavDAazGwIDaH1ipaYLBUTCGgQDA8NdHz0FpqgTBwsLqAbWAAnIA4FWKdMLGdYGEgraigbT0OITBcg5QwPT4xLrROZL6AuQAPUS7bxLpoWidY0JtxLHKhwwMJBTHgPKdEQAACH5BAkKAAAALAAAAAAgACAAAATrEMhJaVKp6s2nIkqFZF2VIBWhUsJaTokqUCoBq+E71SRQeyqUToLA7VxF0JDyIQh/MVVPMt1ECZlfcjZJ9mIKoaTl1MRIl5o4CUKXOwmyrCInCKqcWtvadL2SYhyASyNDJ0uIiUd6GAULDJCRiXo1CpGXDJOUjY+Yip9DhToJA4RBLwMLCwVDfRgbBAaqqoZ1XBMHswsHtxtFaH1iqaoGNgAIxRpbFAgfPQSqpbgGBqUD1wBXeCYp1AYZ19JJOYgH1KwA4UBvQwXUBxPqVD9L3sbp2BNk2xvvFPJd+MFCN6HAAIKgNggY0KtEBAAh+QQJCgAAACwAAAAAIAAgAAAE6BDISWlSqerNpyJKhWRdlSAVoVLCWk6JKlAqAavhO9UkUHsqlE6CwO1cRdCQ8iEIfzFVTzLdRAmZX3I2SfYIDMaAFdTESJeaEDAIMxYFqrOUaNW4E4ObYcCXaiBVEgULe0NJaxxtYksjh2NLkZISgDgJhHthkpU4mW6blRiYmZOlh4JWkDqILwUGBnE6TYEbCgevr0N1gH4At7gHiRpFaLNrrq8HNgAJA70AWxQIH1+vsYMDAzZQPC9VCNkDWUhGkuE5PxJNwiUK4UfLzOlD4WvzAHaoG9nxPi5d+jYUqfAhhykOFwJWiAAAIfkECQoAAAAsAAAAACAAIAAABPAQyElpUqnqzaciSoVkXVUMFaFSwlpOCcMYlErAavhOMnNLNo8KsZsMZItJEIDIFSkLGQoQTNhIsFehRww2CQLKF0tYGKYSg+ygsZIuNqJksKgbfgIGepNo2cIUB3V1B3IvNiBYNQaDSTtfhhx0CwVPI0UJe0+bm4g5VgcGoqOcnjmjqDSdnhgEoamcsZuXO1aWQy8KAwOAuTYYGwi7w5h+Kr0SJ8MFihpNbx+4Erq7BYBuzsdiH1jCAzoSfl0rVirNbRXlBBlLX+BP0XJLAPGzTkAuAOqb0WT5AH7OcdCm5B8TgRwSRKIHQtaLCwg1RAAAOw==);
         background-position:right center;
         background-repeat: no-repeat;
         vertical-align: top;
         position: absolute;
-        right: 0px;
+        right: 0;
       }
+
       .standard-button {
         display: block;
         cursor: pointer;
@@ -147,17 +161,21 @@ The following custom properties and mixins are available for styling:
         border-radius: 5px;
         overflow: hidden;
       }
+
       #button .standard-indicator {
         padding: 0 2.857rem 0 1.75rem;
       }
+
       #button .standard-indicator:before {
         height: 16.5px;
         height: 1.15rem;
       }
+
       .standard-indicator {
         padding: 0.25rem 2.857rem 0 1.75rem;
         position: relative;
       }
+
       .standard-indicator:before {
         background-position: center;
         background-repeat: no-repeat;
@@ -170,36 +188,44 @@ The following custom properties and mixins are available for styling:
         width: 22.75px;
         width: 1.625rem;
       }
+
       .standard-indicator.standard small {
         color: #44650f;
       }
+
       .standard-indicator.non-standard small {
         color: #79520f;
       }
+
       .standard-indicator.standard:before {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.2%22%20baseProfile%3D%22tiny%22%20x%3D%220%22%20y%3D%220%22%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20fill%3D%22%2344650F%22%20d%3D%22M7%2016.6c-0.2%200-0.3-0.1-0.5-0.2l-5.9-5.9c-0.1-0.1-0.2-0.3-0.2-0.5%200-0.2%200.1-0.3%200.2-0.5l2-1.9c0.1-0.1%200.3-0.2%200.5-0.2%200.2%200%200.3%200.1%200.5%200.2l2.9%202.9c0.2%200.2%200.4%200.2%200.6%200.2%200.2%200%200.4-0.1%200.6-0.2l7.9-7.9c0.1-0.1%200.3-0.2%200.5-0.2s0.3%200.1%200.5%200.2l1.9%201.9C18.5%204.7%2018.6%204.8%2018.6%205s-0.1%200.3-0.2%200.5L7.5%2016.4C7.3%2016.5%207.2%2016.6%207%2016.6z%22%2F%3E%3Crect%20fill%3D%22none%22%20width%3D%2220%22%20height%3D%2220%22%2F%3E%3C%2Fsvg%3E") !important;
       }
+
       .standard-indicator.non-standard:before {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.2%22%20baseProfile%3D%22tiny%22%20x%3D%220%22%20y%3D%220%22%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20xml%3Aspace%3D%22preserve%22%3E%3Crect%20fill%3D%22none%22%20width%3D%2220%22%20height%3D%2220%22%2F%3E%3Cpath%20fill%3D%22%2379520F%22%20d%3D%22M10%208.7l3.2%205.4H6.8L10%208.7M10%202.2c-0.4%200-0.7%200.2-1%200.7L1.2%2016.2C0.6%2017.1%201.1%2017.9%202.2%2017.9h15.7c1.1%200%201.5-0.8%201-1.7L11%202.9C10.7%202.4%2010.4%202.2%2010%202.2L10%202.2z%22%2F%3E%3C%2Fsvg%3E") !important
       }
+
       .small {
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
         font-size: 12px;
       }
+
       #Layer_1 {
         vertical-align: middle;
       }
+
       birch-typeahead {
         --birch-typeahead-input: {
           background-color: #fff;
           border: 1px solid #ccc;
           border-radius: 4px;
-          box-shadow: inset 0 3px 0 rgba(0,0,0,.05);
+          box-shadow: inset 0 3px 0 rgba(0,0,0,0.05);
           box-sizing: border-box;
           color: #333331;
           padding: 6px 10px 6px 25px;
+
           @apply --birch-standards-picker-input;
         };
 
@@ -218,6 +244,7 @@ The following custom properties and mixins are available for styling:
         --birch-typeahead-paper-item: {
           @apply --birch-standards-picker-paper-item;
         };
+
         --paper-item-body-two-line-min-height: 50px;
       }
 
@@ -231,13 +258,16 @@ The following custom properties and mixins are available for styling:
           font-weight: 100 !important;
           background-color: #ecebea !important;
         };
+
         --paper-item-icon-width: 25px;
       }
+
       paper-menu {
         --paper-menu: {
           font-family: verdana
         };
       }
+
       paper-item > *, paper-icon-item > *, paper-item-body > * {
         white-space: normal !important;
         font-size: 14px !important;
@@ -245,13 +275,14 @@ The following custom properties and mixins are available for styling:
 
       birch-typeahead.thinDate {
         --birch-typeahead-paper-item: {
-          padding-top: 0px;
-          padding-bottom: 0px;
+          padding-top: 0;
+          padding-bottom: 0;
         };
         --birch-typeahead-paper-item-body-children: {
           font-weight: 100 !important;
         };
       }
+
       .flex-row {
         display: flex;
         flex-direction: row;
@@ -287,13 +318,13 @@ The following custom properties and mixins are available for styling:
           <paper-icon-item style="display: flex; align-items: center;" title$="[[item.label]]">
             <template is="dom-if" if="[[isDate]]">
               <svg slot="item-icon" item-icon id="Layer_1" data-name="Layer 1" width="14" height="16" viewBox="0 0 14 16"><path d="M1,15.9A.94.94,0,0,1,.1,15V3.6A1.5,1.5,0,0,1,1.6,2.1h.3V3A1.1,1.1,0,0,0,3,4.1h.1V.1H4a.9.9,0,0,1,.9.9V2.1h4V3A1.1,1.1,0,0,0,10,4.1h.1V.1H11a.9.9,0,0,1,.9.9V2.1h.5a1.5,1.5,0,0,1,1.5,1.5V15a.94.94,0,0,1-.94.94Zm.86-1.8H12.1V5.9H1.9Z" style="fill:#333331"/><rect width="14" height="16" style="fill:none"/><path d="M3.17,12.24l.59-.76a2.12,2.12,0,0,0,1.47.61c.65,0,1-.28,1-.68s-.33-.62-1.07-.62l-.66,0v-1h.66c.59,0,1-.18,1-.57s-.43-.63-1-.63a1.92,1.92,0,0,0-1.35.55l-.57-.71a2.63,2.63,0,0,1,2-.85c1.25,0,2,.56,2,1.45a1.31,1.31,0,0,1-1.17,1.22,1.34,1.34,0,0,1,1.25,1.28c0,.92-.82,1.57-2.1,1.57A2.67,2.67,0,0,1,3.17,12.24Z" style="fill:#333331"/><path d="M9.33,13V9.13l-.89.9-.65-.68L9.47,7.67h1V13Z" style="fill:#333331"/></svg>
-              <paper-item-body style="display: flex; flex-direction: column; justify-content: center; flex: 1; flex-basis: .000000001px;">
+              <paper-item-body style="display: flex; flex-direction: column; justify-content: center; flex: 1; flex-basis: 0.000000001px;">
                 <div class="standard-label">[[item.label]]</div>
               </paper-item-body>
             </template>
             <template is="dom-if" if="[[isPlace]]">
               <svg slot="item-icon" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="11" height="16" viewBox="0 0 11 16"><path d="M5.5,15.79a.39.39,0,0,1-.37-.24.36.36,0,0,1,0-.13A7.49,7.49,0,0,0,2.9,10.31c-.37-.44-.79-.94-1.27-1.57L1.4,8.42a5,5,0,0,1-1-3.08,5.13,5.13,0,1,1,10.27,0,5.08,5.08,0,0,1-1,3.08l-.24.32h0c-.48.63-.9,1.13-1.27,1.57a7.46,7.46,0,0,0-2.21,5.08A.39.39,0,0,1,5.5,15.79ZM5.5,3a2,2,0,1,0,2,2A2,2,0,0,0,5.5,3Z" style="fill:#333331"/><rect width="11" height="16" style="fill:none"/></svg>
-              <paper-item-body two-line style="display: flex; flex-direction: column; justify-content: center; flex: 1; flex-basis: .000000001px;">
+              <paper-item-body two-line style="display: flex; flex-direction: column; justify-content: center; flex: 1; flex-basis: 0.000000001px;">
                 <div class="standard-label">[[item.label]]</div>
                 <div class="standard-info" style="white-space:normal;color:#666662;font-size:12px !important;">[[item.type]][[item.yearRange]]</div>
               </paper-item-body>
@@ -302,7 +333,7 @@ The following custom properties and mixins are available for styling:
         </template>
         <template is="dom-if" if="[[!item.icon]]" restamp>
           <paper-icon-item title$="[[item.label]]">
-            <paper-item-body style="display: flex; flex-direction: column; justify-content: center; flex: 1; flex-basis: .000000001px;">
+            <paper-item-body style="display: flex; flex-direction: column; justify-content: center; flex: 1; flex-basis: 0.000000001px;">
               <div class="standard-label" style="white-space:normal;color:#333331;">[[item.label]]</div>
             </paper-item-body>
           </paper-icon-item>
@@ -415,7 +446,7 @@ The following custom properties and mixins are available for styling:
                   </span>
                 </template>
               </template>
-              <paper-item-body two-line style="display: flex; flex-direction: column; justify-content: center; flex: 1; flex-basis: .000000001px;">
+              <paper-item-body two-line style="display: flex; flex-direction: column; justify-content: center; flex: 1; flex-basis: 0.000000001px;">
                 <div class="standard-label">[[item.label]]</div>
                 <div class="standard-info" style="white-space:normal;color:#666662;font-size:12px !important;">[[item.type]][[item.yearRange]]</div>
               </paper-item-body>
@@ -428,7 +459,7 @@ The following custom properties and mixins are available for styling:
   </template>
 
   <script>
-  (function(){
+  (function () {
     var queryCache = {};
 
     Polymer({
@@ -490,7 +521,7 @@ The following custom properties and mixins are available for styling:
          */
         data: {
           type: Object,
-          value: function() { return {}; },
+          value: function () { return {}; },
           observer: '_handleDataChange',
           notify: true
         },
@@ -506,7 +537,7 @@ The following custom properties and mixins are available for styling:
         /** Whether the typeahead input label should show helplet ('i') icon/text
          * @type {Boolean}
          */
-         showFieldHelp: {
+        showFieldHelp: {
           reflectToAttribute: true,
           type: Boolean,
           value: false
@@ -544,12 +575,12 @@ The following custom properties and mixins are available for styling:
 
         _typeaheadOptions: {
           type: Array,
-          value: function() { return []; }
+          value: function () { return []; }
         },
 
         _standardOptions: {
           type: Array,
-          value: function() { return []; }
+          value: function () { return []; }
         },
 
         _hideStandards: {
@@ -570,7 +601,7 @@ The following custom properties and mixins are available for styling:
         /**
          * Way to confirm if change has occurred
          */
-         isDirty: {
+        isDirty: {
           type: Boolean,
           value: false,
           notify: true
@@ -579,7 +610,7 @@ The following custom properties and mixins are available for styling:
         /**
          * Opt-in for displaying shorter container and thin text
          */
-         showThinDate: {
+        showThinDate: {
           type: Boolean,
           value: false,
           notify: true
@@ -604,7 +635,7 @@ The following custom properties and mixins are available for styling:
       /**
        * Reset the standards picker and typeaheads' state and content
        */
-      reset: function() {
+      reset: function () {
         this._resetArrays();
         this._updateData({});
         this.standardSelected = false;
@@ -618,23 +649,23 @@ The following custom properties and mixins are available for styling:
         this.isDirty = false;
       },
 
-      _resetArrays: function(){
+      _resetArrays: function () {
         this._typeaheadOptions = [];
         this._standardOptions = [];
       },
 
-      _focusButton: function(event) {
-        this.async(function(){
+      _focusButton: function (event) {
+        this.async(function () {
           this.$.button.focus();
         });
       },
 
-      _handleDataChange: function(data) {
+      _handleDataChange: function (data) {
         this._setStandardSelected(data);
-        if(!this.searchTerm && (data.customText || data.standardText)){
+        if (!this.searchTerm && (data.customText || data.standardText)) {
           this.searchTerm = data.customText || data.standardText;
 
-          if(!data.label){
+          if (!data.label) {
             var clonedData = this._clone(this.data);
             clonedData.label = clonedData.standardText || undefined;
             this._updateData(clonedData);
@@ -643,7 +674,7 @@ The following custom properties and mixins are available for styling:
 
           // If customText matches standardText exactly,
           // delete customText and run this function again.
-          if(data.customText === data.standardText){
+          if (data.customText === data.standardText) {
             delete data.customText;
             this._updateData(this._clone(data));
             this._handleDataChange(this.data);
@@ -655,45 +686,45 @@ The following custom properties and mixins are available for styling:
             detail: {
               value: this.searchTerm
             }
-          }
+          };
           this._handleInput(fakeEvent, true);
         }
       },
 
-      _getStandardLabel: function(data) {
+      _getStandardLabel: function (data) {
         return data.standardText || data.label;
       },
 
-      _isNonStandardSelected: function(data, i18n, showOnlyIfStandardsMenuHidden) {
-        if(!i18n) return;
-        if(showOnlyIfStandardsMenuHidden && !this.hideStandardsMenu) return false;
+      _isNonStandardSelected: function (data, i18n, showOnlyIfStandardsMenuHidden) {
+        if (!i18n) return;
+        if (showOnlyIfStandardsMenuHidden && !this.hideStandardsMenu) return false;
         return this._getStandardLabel(data) === i18n('NO_STANDARD_SELECTED');
       },
 
-      _clone: function(obj){
+      _clone: function (obj) {
         return JSON.parse(JSON.stringify(obj));
       },
 
       // Don't update this.data or emit the update-data event if nothing has changed
-      _dataHasChanged: function(oldData, data) {
+      _dataHasChanged: function (oldData, data) {
         var keys = ['id', 'customText', 'standardText', 'label'];
 
-        if(!oldData.id && oldData.placeRepId){
+        if (!oldData.id && oldData.placeRepId) {
           oldData.id = oldData.placeRepId.toString();
         }
 
-        for(var i = 0; i < keys.length; ++i){
+        for (var i = 0; i < keys.length; ++i) {
           var key = keys[i];
-          if(data[key] !== oldData[key]){
+          if (data[key] !== oldData[key]) {
             return true;
           }
         }
         return false;
       },
 
-      _updateData: function(obj) {
+      _updateData: function (obj) {
         // Check changes and trigger the event before updating the data.
-        if(obj.canceled || this._dataHasChanged(this.data, obj)){
+        if (obj.canceled || this._dataHasChanged(this.data, obj)) {
           this.fire('birch-standards-picker:update-data', {data: obj});
         }
         // Must reassign this.data even if data hasn't changed
@@ -703,64 +734,64 @@ The following custom properties and mixins are available for styling:
       },
 
       // Can't do _is(standardType, 'place') here because the markup gets templatized
-      _setIsDateOrPlace: function(standardType) {
+      _setIsDateOrPlace: function (standardType) {
         this.isDate = standardType === 'date';
         this.isPlace = standardType === 'place';
       },
 
-      _setItemClass(_isDate, _showThinDate) {
+      _setItemClass (_isDate, _showThinDate) {
         if (_isDate && _showThinDate) return 'thinDate';
       },
-      _setThinDateStyles(_isDate, _showThinDate) {
+      _setThinDateStyles (_isDate, _showThinDate) {
         if (_isDate && _showThinDate) return 'max-height: 50px; font-weight: 100;';
       },
 
-      _updateLabels: function(i18n, standardType) {
-        if(!i18n) return;
+      _updateLabels: function (i18n, standardType) {
+        if (!i18n) return;
         this.standardsDropdownLabel = this.i18n('STANDARD_' + this.standardType.toUpperCase() + '_LABEL');
         this.inputLabel = this.inputLabel || this.i18n('EVENT_' + this.standardType.toUpperCase() + '_LABEL');
       },
 
-      _getPlaceholder: function(type, i18n, disabled) {
+      _getPlaceholder: function (type, i18n, disabled) {
         if (!i18n || disabled) return '';
         var string = this.customPlaceholder || i18n(type.toUpperCase() + '_PLACEHOLDER');
         return string;
       },
 
-      _handleInput: function(e, isProgramaticFetch) {
-        if(!e || !e.detail || !e.detail.value){
+      _handleInput: function (e, isProgramaticFetch) {
+        if (!e || !e.detail || !e.detail.value) {
           this._cancelActiveRequest();
           this.loading = false;
           return this.reset();
         }
-        if(isProgramaticFetch !== true) this.standardSelected = false;
-        if(!e.detail.value.trim()) return;
+        if (isProgramaticFetch !== true) this.standardSelected = false;
+        if (!e.detail.value.trim()) return;
         this.loading = true;
         this._fetchData(e.detail.value, isProgramaticFetch);
       },
 
-      _fetchData: function(term, isProgramaticFetch) {
+      _fetchData: function (term, isProgramaticFetch) {
         var self = this;
         var url = (self.customUrl || '/tree-data/authorities/') + this.standardType + '?term=' + encodeURIComponent(term) + '&locale=' + this.lang;
-        this._req('GET', url).then(function (data){
+        this._req('GET', url).then(function (data) {
           self._handleResponse(data, isProgramaticFetch);
-        }).catch(function (err){
-          if(err.aborted) return;
+        }).catch(function (err) {
+          if (err.aborted) return;
           self._handleResponse([], isProgramaticFetch);
           self.fire('birch-standards-picker:error', err);
           console.error('birch-standards-picker:error', err);
         });
       },
 
-      _handleResponse: function(options, isProgramaticFetch) {
+      _handleResponse: function (options, isProgramaticFetch) {
         this.loading = false;
-        if(!options || !Array.isArray(options)){
+        if (!options || !Array.isArray(options)) {
           options = [];
           this._resetArrays();
         }
 
         var val = this.$.typeahead.$.input.value;
-        if(val && !!val.trim() && !options.length){
+        if (val && !!val.trim() && !options.length) {
           this._resetArrays();
           this._updateData({
             customText: val,
@@ -768,23 +799,23 @@ The following custom properties and mixins are available for styling:
           });
           return this._setShowNonStandardSelectedIndicator(this.data, this.searchTerm, this._standardOptions);
         } else {
-          if(this.data.label === this.i18n('NO_STANDARD_' + this.standardType.toUpperCase() + '_AVAILABLE')){
+          if (this.data.label === this.i18n('NO_STANDARD_' + this.standardType.toUpperCase() + '_AVAILABLE')) {
             var clonedData = this._clone(this.data);
             delete clonedData.label;
             this._updateData(clonedData);
           }
         }
-        if(val && !!val.trim() && !this.data.label && options.length){
-          var clonedData = this._clone(this.data);
+        if (val && !!val.trim() && !this.data.label && options.length) {
+          var clonedData = this._clone(this.data); // eslint-disable-line no-redeclare
           clonedData.label = clonedData.standardText || this.i18n('NO_STANDARD_SELECTED');
           this._updateData(clonedData);
         }
         options = options.map(this._mapOptionsCB.bind(this));
         this._standardOptions = [].concat(options);
         this._typeaheadOptions = this._setupTypeaheadOptions([].concat(options));
-        if(isProgramaticFetch === true){
+        if (isProgramaticFetch === true) {
           this.$.typeahead.hideOptions();
-          if(!this.standardSelected && this.data.standardText){
+          if (!this.standardSelected && this.data.standardText) {
             this._selectStandardOptionByStandardizedText(this.data.standardText);
           }
         }
@@ -792,12 +823,12 @@ The following custom properties and mixins are available for styling:
         this._setShowNonStandardSelectedIndicator(this.data, this.searchTerm, this._standardOptions);
       },
 
-      _selectStandardOptionByStandardizedText: function(text) {
+      _selectStandardOptionByStandardizedText: function (text) {
         const index = this._standardOptions.map(item => item.standardText).indexOf(text);
-        if(~index) this.$.optionsMenu.select(index);
+        if (~index) this.$.optionsMenu.select(index);
       },
 
-      _mapOptionsCB: function(option) {
+      _mapOptionsCB: function (option) {
         var vm = {
           icon: true,
           id: option.id,
@@ -811,7 +842,7 @@ The following custom properties and mixins are available for styling:
           yearRange: option.yearRange,
           sortKeyShort: option.sortKeyShort
         };
-        if(vm.label === 'None of the above') {
+        if (vm.label === 'None of the above') {
           vm.label = this.i18n('NONE_OF_THE_ABOVE');
           vm.icon = false;
         }
@@ -820,16 +851,16 @@ The following custom properties and mixins are available for styling:
         return vm;
       },
 
-      _setupTypeaheadOptions: function(options) {
-        //Strip the "None of the above" option that tree-data always sends back
-        if(options.length > 1){
+      _setupTypeaheadOptions: function (options) {
+        // Strip the "None of the above" option that tree-data always sends back
+        if (options.length > 1) {
           options = options.slice(0, options.length - 1);
         }
 
-        if(options.length){
-          //Add the currently entered value as the first option if it differs from the first standard
+        if (options.length) {
+          // Add the currently entered value as the first option if it differs from the first standard
           var isStandard = (options.length && options[0].label.toLowerCase() === this.searchTerm.toLowerCase());
-          if(!isStandard){
+          if (!isStandard) {
             // New option to unshift
             var firstOption = {
               icon: false,
@@ -838,7 +869,7 @@ The following custom properties and mixins are available for styling:
             };
 
             // If standard options exist
-            if(options.length > 0){
+            if (options.length > 0) {
               firstOption = Object.assign({}, options[0], firstOption);
             }
 
@@ -849,11 +880,11 @@ The following custom properties and mixins are available for styling:
         return options;
       },
 
-      _handleChangeStandard: function(e) {
+      _handleChangeStandard: function (e) {
         if (!e || !e.model || !e.model.item) return;
         this._cancelActiveRequest();
         this.loading = false;
-        if(e.model.item.label === this.i18n('NONE_OF_THE_ABOVE')){
+        if (e.model.item.label === this.i18n('NONE_OF_THE_ABOVE')) {
           e.model.item.label = this.i18n('NO_STANDARD_SELECTED');
         }
         var data = Object.assign({}, e.model.item, { customText: this.searchTerm });
@@ -862,8 +893,8 @@ The following custom properties and mixins are available for styling:
         this.isDirty = true;
       },
 
-      _handleSelect: function(e) {
-        this.fireMetrics({link_name:this.standardType + ' - Entered'})
+      _handleSelect: function (e) {
+        this.fireMetrics({link_name: this.standardType + ' - Entered'});
         if (!e || !e.detail || !e.detail.selection) return;
         this._cancelActiveRequest();
         this.loading = false;
@@ -872,18 +903,18 @@ The following custom properties and mixins are available for styling:
         this._setShowNonStandardSelectedIndicator(this.data, this.searchTerm, this._standardOptions);
       },
 
-      _handleCancel: function(e) {
+      _handleCancel: function (e) {
         if (this.searchTerm) {
           var data = this._clone(this.data);
           var props = Object.keys(data).length;
-          if(!props || (props === 1 && this.data.customText)){
+          if (!props || (props === 1 && this.data.customText)) {
             if (this._standardOptions.length > 0) {
               data.label = this.i18n('NO_STANDARD_SELECTED');
             } else {
               data.label = this.i18n('NO_STANDARD_' + this.standardType.toUpperCase() + '_AVAILABLE');
             }
           }
-          if(data.standardText !== this.$.typeahead.value){
+          if (data.standardText !== this.$.typeahead.value) {
             data.customText = this.$.typeahead.value;
           }
           data.canceled = true;
@@ -892,17 +923,17 @@ The following custom properties and mixins are available for styling:
         this._setShowNonStandardSelectedIndicator(this.data, this.searchTerm, this._standardOptions);
       },
 
-      _openStandardSelector: function(e) {
+      _openStandardSelector: function (e) {
         // We have to programmatically focus the button on
         // click because firefox doesn't do it automatically.
         if (e && e.target) e.target.focus();
 
         if (this._standardOptions.length < 1) return;
-        this._hideStandards = this._hideStandards ? false : true;
+        this._hideStandards = !this._hideStandards;
       },
 
-      _handleFocusout: function(e) {
-        if(!e) return;
+      _handleFocusout: function (e) {
+        if (!e) return;
         if (this && this.$.optionsMenu && !this.$.optionsMenu.contains(e.relatedTarget)) {
           this._hideStandards = true;
         } else {
@@ -910,50 +941,50 @@ The following custom properties and mixins are available for styling:
         }
       },
 
-      _handleKeydown: function(e) {
-        if(!e || !e.which) return;
-        switch(e.which){
-          case 38:  this._handleUpArrow(e);     break;
-          case 40:  this._handleDownArrow(e);   break;
-          case 9:   this._handleTab(e);         break;
-          case 13:  this._handleEnter(e);       break;
-          case 27:  this._handleEscape(e);      break;
+      _handleKeydown: function (e) {
+        if (!e || !e.which) return;
+        switch (e.which) {
+          case 38: this._handleUpArrow(e); break;
+          case 40: this._handleDownArrow(e); break;
+          case 9: this._handleTab(e); break;
+          case 13: this._handleEnter(e); break;
+          case 27: this._handleEscape(e); break;
         }
       },
 
-      _handleUpArrow: function(e) {
+      _handleUpArrow: function (e) {
         e.preventDefault();
-        if(this._hideStandards) return;
+        if (this._hideStandards) return;
         var optionsMenu = this.$.optionsMenu;
         var index = Math.max(optionsMenu.selected - 1, 0);
         optionsMenu.select(index);
         this._focusButton();
       },
 
-      _handleDownArrow: function(e) {
+      _handleDownArrow: function (e) {
         e.preventDefault();
-        if(this._hideStandards) {
+        if (this._hideStandards) {
           this._hideStandards = false;
           return;
         }
         var optionsMenu = this.$.optionsMenu;
         var index = 0;
-        if(typeof optionsMenu.selected === 'number'){
+        if (typeof optionsMenu.selected === 'number') {
           index = Math.min(optionsMenu.selected + 1, this._standardOptions.length - 1);
         }
         optionsMenu.select(index);
         this._focusButton();
       },
 
-      _handleTab: function(e) {
-        if(this._hideStandards) return;
+      _handleTab: function (e) {
+        if (this._hideStandards) return;
         e.model = e.model || {};
         e.model.item = this._standardOptions[this.$.optionsMenu.selected];
         this._handleChangeStandard(e);
       },
 
-      _handleEnter: function(e) {
-        if(this._hideStandards) {
+      _handleEnter: function (e) {
+        if (this._hideStandards) {
           this._hideStandards = false;
           return;
         }
@@ -964,35 +995,35 @@ The following custom properties and mixins are available for styling:
         this._focusButton();
       },
 
-      _handleEscape: function(e) {
-        if(!this._hideStandards) e.stopPropagation();
+      _handleEscape: function (e) {
+        if (!this._hideStandards) e.stopPropagation();
         this._hideStandards = true;
         this._focusButton();
       },
 
-      _cancelActiveRequest: function() {
-        if(this.xhr){
+      _cancelActiveRequest: function () {
+        if (this.xhr) {
           this.xhr.abort();
           this.xhr = null;
         }
       },
 
-      _req: function(method, url) {
+      _req: function (method, url) {
         this._cancelActiveRequest();
-        return new Promise(function (resolve, reject){
+        return new Promise(function (resolve, reject) {
           var cacheVal = queryCache[url];
-          if(cacheVal) return resolve(cacheVal);
+          if (cacheVal) return resolve(cacheVal);
           this.xhr = new XMLHttpRequest();
           this.xhr.open(method.toUpperCase(), url, true);
-          this.xhr.onload = function(){
-            try{
-              if(!this || !this.response || !this.response) return reject(this);
-              if(this.status >= 300) return reject(this);
-              if(this.status === 204) return resolve();
+          this.xhr.onload = function () {
+            try {
+              if (!this || !this.response || !this.response) return reject(this);
+              if (this.status >= 300) return reject(this);
+              if (this.status === 204) return resolve();
               var output = JSON.parse(this.response);
               queryCache[url] = output;
               return resolve(output);
-            } catch(err) {
+            } catch (err) {
               return reject(err);
             }
           };
@@ -1001,43 +1032,43 @@ The following custom properties and mixins are available for styling:
         }.bind(this));
       },
 
-      _hideStandardIcon: function(label, i18n) {
-        if(!i18n) return;
+      _hideStandardIcon: function (label, i18n) {
+        if (!i18n) return;
         return label === i18n('NO_STANDARD_SELECTED');
       },
 
-      _hideStandardsContainer: function(data, standardType, i18n, hideStandardsMenu) {
-        if(!i18n || hideStandardsMenu) return true;
-        var standardType = standardType.toUpperCase();
+      _hideStandardsContainer: function (data, standardType, i18n, hideStandardsMenu) {
+        if (!i18n || hideStandardsMenu) return true;
+        var standardType = standardType.toUpperCase(); // eslint-disable-line no-redeclare
         var noStandardText = i18n('NO_STANDARD_' + standardType + '_AVAILABLE');
         return !data.customText || data.label === noStandardText;
       },
 
       // searchTerm is passed here simply to trigger this observer
-      _showStandardSelectedIndicator: function(data, searchTerm) {
+      _showStandardSelectedIndicator: function (data, searchTerm) {
         return data.standardText;
       },
 
-      _setShowNonStandardSelectedIndicator: function(data, searchTerm, standardOptions) {
+      _setShowNonStandardSelectedIndicator: function (data, searchTerm, standardOptions) {
         this._showNonStandardSelectedIndicator = !data.standardText && searchTerm && !standardOptions.length;
       },
 
-      _getStandardizedIndicatorText: function(standardType, i18n) {
-        if(!i18n) return;
+      _getStandardizedIndicatorText: function (standardType, i18n) {
+        if (!i18n) return;
         return (standardType === 'place') ? i18n('STANDARDIZED_PLACE') : i18n('STANDARDIZED_DATE');
       },
 
-      _getNonStandardizedIndicatorText: function(standardType, i18n) {
-        if(!i18n) return;
+      _getNonStandardizedIndicatorText: function (standardType, i18n) {
+        if (!i18n) return;
         return (standardType === 'place') ? i18n('NO_STANDARD_PLACE_AVAILABLE') : i18n('NO_STANDARD_DATE_AVAILABLE');
       },
 
       // Track whether the current selection has custom text
-      _setStandardSelected: function(selection) {
+      _setStandardSelected: function (selection) {
         this.standardSelected = selection.standardText && !selection.customText;
       },
 
-      _showStandardInputIcon: function(bool, standardSelected) {
+      _showStandardInputIcon: function (bool, standardSelected) {
         return bool && standardSelected;
       }
     });

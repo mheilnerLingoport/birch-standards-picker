@@ -1,0 +1,113 @@
+{
+  "name": "birch-standards-picker",
+  "version": "2.14.4",
+  "description": "Polymer-based web component for viewing the fan chart pedigree view.",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fs-webdev/birch-standards-picker.git"
+  },
+  "author": {
+    "name": "FamilySearch",
+    "url": "https://familysearch.org/"
+  },
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/fs-webdev/birch-standards-picker/issues"
+  },
+  "homepage": "https://github.com/fs-webdev/birch-standards-picker#readme",
+  "devDependencies": {
+    "fs-common-build-scripts": "github:fs-webdev/fs-common-build-scripts",
+    "fs-javascript": "github:fs-webdev/fs-javascript"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "precommit": "node node_modules/fs-common-build-scripts/bin/pre_commit_checks.js && semistandard --verbose '**/*.html' '**/*.js' --fix | snazzy",
+    "preinstall": "git config --global url.https://github.com/.insteadOf git://github.com/",
+    "pretest": "semistandard --verbose '**/*.html' '**/*.js' --fix | snazzy",
+    "standard": "semistandard --verbose '**/*.html' '**/*.js' | snazzy",
+    "standard-fix": "semistandard --verbose '**/*.html' '**/*.js' --fix | snazzy && stylelint '**/*.html' '**/*.css' --fix",
+    "test": "wct --skip-plugin sauce",
+    "test-p": "wct --skip-plugin sauce -p",
+    "test-s": "wct --configFile wct.conf.windows.json --skip-plugin local && wct --configFile wct.conf.json --skip-plugin local"
+  },
+  "semistandard": {
+    "about": "https://github.com/Flet/semistandard#javascript-semi-standard-style",
+    "globals": [
+      "UpperChart",
+      "LowerChart",
+      "FanchartUtils",
+      "__services__",
+      "after",
+      "afterEach",
+      "axe",
+      "before",
+      "beforeEach",
+      "customElements",
+      "CustomEvent",
+      "d3",
+      "describe",
+      "Event",
+      "expect",
+      "fixture",
+      "FS",
+      "FSTreeCommonRoutingService",
+      "FsBehaviors",
+      "Headers",
+      "HF",
+      "HTMLElement",
+      "indexedDB",
+      "it",
+      "location",
+      "OakI18nBehavior",
+      "Polymer",
+      "ResettablePropertiesBehavior",
+      "sessionStorage",
+      "sinon",
+      "WCI18n",
+      "WCT",
+      "XMLHttpRequest"
+    ],
+    "ignore": [
+      "**/*bower_components*/**",
+      "**/*min.*",
+      "**/*node_modules*/**",
+      "**/*polyfill*",
+      "**/demo/**",
+      "**/reports/**",
+      "**/test/**",
+      "**/vendor/**",
+      "analysis.json",
+      "gulpfile.js"
+    ],
+    "parser": "babel-eslint",
+    "plugin": "html"
+  },
+  "stylelint": {
+    "about": "https://github.com/stylelint/stylelint/blob/master/docs/user-guide/rules.md#possible-errors",
+    "extends": "stylelint-config-standard",
+    "ignoreFiles": [
+      "**/bower_components/**.*",
+      "**/node_modules/**.*",
+      "**/reports/**.*",
+      "**/test/**.*"
+    ],
+    "rules": {
+      "indentation": 2,
+      "media-feature-colon-space-after": null,
+      "selector-type-no-unknown": null,
+      "unit-whitelist": [
+        "%",
+        "deg",
+        "em",
+        "px",
+        "rem",
+        "s",
+        "vh",
+        "vw"
+      ]
+    }
+  }
+}
