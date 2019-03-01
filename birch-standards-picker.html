@@ -772,7 +772,7 @@ The following custom properties and mixins are available for styling:
 
       _fetchData: function (term, isProgramaticFetch) {
         var self = this;
-        var url = (self.customUrl || '/tree-data/authorities/') + this.standardType + '?term=' + encodeURIComponent(term) + '&locale=' + this.lang;
+        var url = (self.customUrl || '/service/tree/tree-data/authorities/') + this.standardType + '?term=' + encodeURIComponent(term) + '&locale=' + this.lang;
         this._req('GET', url).then(function (data) {
           self._handleResponse(data, isProgramaticFetch);
         }).catch(function (err) {
