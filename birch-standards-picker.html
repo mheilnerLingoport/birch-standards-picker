@@ -297,8 +297,8 @@ The following custom properties and mixins are available for styling:
       class$="[[_setItemClass(isDate, showThinDate)]]"
       focusable-component
       id='typeahead'
-      input-label="[[inputLabel]]"
-      aria-input-label='[[inputLabel]]'
+      input-label="[[_inputLabel]]"
+      aria-input-label='[[_inputLabel]]'
       highlight-first-item
       follow-tabindex-after-tab-select
       loading="[[loading]]"
@@ -749,7 +749,7 @@ The following custom properties and mixins are available for styling:
       _updateLabels: function (i18n, standardType) {
         if (!i18n) return;
         this.standardsDropdownLabel = this.i18n('STANDARD_' + this.standardType.toUpperCase() + '_LABEL');
-        this.inputLabel = this.i18n('EVENT_' + this.standardType.toUpperCase() + '_LABEL');
+        this._inputLabel = this.inputLabel || this.i18n('EVENT_' + this.standardType.toUpperCase() + '_LABEL');
       },
 
       _getPlaceholder: function (type, i18n, disabled) {
