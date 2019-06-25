@@ -1,6 +1,6 @@
 {
   "name": "birch-standards-picker",
-  "version": "2.14.9",
+  "version": "2.14.10",
   "description": "Polymer-based web component for viewing the fan chart pedigree view.",
   "directories": {
     "test": "test"

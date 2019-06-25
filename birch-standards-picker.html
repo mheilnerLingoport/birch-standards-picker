@@ -14,8 +14,8 @@ The standards picker is used to select standard dates and places.
 
 Assumptions the component makes
 - promises and fetch are supported (the component does not bring in the polyfills)
-- `/tree-data/` resolves to a valid tree-data path e.g. `integration.familysearch.org/tree-data` (you'll need a proxy for tree-data running locally)
-- user is logged in to familysearch (`tree-data` returns 401s)
+- `/service/tree/tree-data/` resolves to a valid /service/tree/tree-data path e.g. `integration.familysearch.org/service/tree/tree-data` (you'll need a proxy for /service/tree/tree-data running locally)
+- user is logged in to familysearch (`/service/tree/tree-data` returns 401s)
 
 Behavior of the component
 - When a user types a standard then clicks away or presses escape without selecting from the input menu, no standard is selected
@@ -852,7 +852,7 @@ The following custom properties and mixins are available for styling:
       },
 
       _setupTypeaheadOptions: function (options) {
-        // Strip the "None of the above" option that tree-data always sends back
+        // Strip the "None of the above" option that /service/tree/tree-data always sends back
         if (options.length > 1) {
           options = options.slice(0, options.length - 1);
         }
