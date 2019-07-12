@@ -465,7 +465,7 @@ The following custom properties and mixins are available for styling:
     Polymer({
       is: 'birch-standards-picker',
       behaviors: [
-        OakI18nBehavior,
+        OakI18nBehavior, // eslint-disable-line no-undef
         WCI18n(),
         FsBehaviors.Metrics
       ],
@@ -754,8 +754,7 @@ The following custom properties and mixins are available for styling:
 
       _getPlaceholder: function (type, i18n, disabled) {
         if (!i18n || disabled) return '';
-        var string = this.customPlaceholder || i18n(type.toUpperCase() + '_PLACEHOLDER');
-        return string;
+        return this.customPlaceholder || i18n(type.toUpperCase() + '_PLACEHOLDER');
       },
 
       _handleInput: function (e, isProgramaticFetch) {
