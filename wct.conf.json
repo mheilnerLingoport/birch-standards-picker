@@ -49,8 +49,8 @@
     },
     "size-limit": {
       "path": "birch-standards-picker.html",
-      "limitNoPolymer": "70 KB",
-      "limitNoExternals": "15 KB"
+      "limitNoPolymer": "90 KB",
+      "limitNoExternals": "20 KB"
     }
   }
 }
