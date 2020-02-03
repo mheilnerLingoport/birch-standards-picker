@@ -1,0 +1,18 @@
+{
+  "DATE_PLACEHOLDER": "Wpisz datę.",
+  "EVENT_DATE_LABEL": "Data wydarzenia",
+  "EVENT_PLACE_LABEL": "Miejsce wydarzenia",
+  "HELPLET_DATE": "Wprowadź datę w jednym z ustandaryzowanych formatów. Na przykład:<br /><ul style='padding-left: 10px;'><li>24 czerwca 1962</li><li>czerwiec 1962</li><li>1962</li><li>około 1962</li><li>przed 1962</li><li>po 1962</li><li>pomiędzy 1961 a 1962</li></ul><a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized dates.' target='_blank'>Dowiedz się więcej na temat ustandaryzowania dat.</a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Learn what to do when you do not know an exact date.' target='_blank'>Dowiedz się, co zrobić, kiedy nie znasz dokładnej daty.</a>",
+  "HELPLET_PLACE": "Wpisz nazwę miejsca w ustandaryzowanym formacie. Na przykład:<br /><ul style='padding-left: 10px;'><li>Rochdale, Lancashire, Anglia</li><li>Bordeaux, Francja</li><li>Brazylia</li></ul><a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized places.' target='_blank'>Dowiedz się więcej na temat ustandaryzowania nazw miejsc.</a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=How-do-I-recommend-an-addition-to-standardized-places-1381813455565&lang=en' title='Learn how to recommend an addition or correction to standardized places.' target='_blank'>Dowiedz się, jak polecić dodanie lub korektę ustandaryzowanych nazw miejsc.</a>",
+  "HELPLET_STANDARDIZED_DATE": "Jeśli ustandaryzowana data jest błędna lub pusta, wybierz z listy to, co najlepiej pasuje do wprowadzonej przez ciebie daty.<br /> <br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized dates.' target='_blank'>Dowiedz się więcej na temat ustandaryzowania dat.</a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Learn what to do when you do not know an exact date.' target='_blank'>Dowiedz się, co zrobić, kiedy nie znasz dokładnej daty.</a>",
+  "HELPLET_STANDARDIZED_PLACE": "Jeśli ustandaryzowana nazwa miejsca jest błędna lub pusta, wybierz z listy to, co najlepiej pasuje do wprowadzonej przez ciebie nazwy miejsca.<br /> <br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized places.' target='_blank'>Dowiedz się więcej na temat ustandaryzowania nazwy miejsc.</a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=How-do-I-recommend-an-addition-to-standardized-places-1381813455565&lang=en' title='Learn how to recommend an addition or correction to standardized places.' target='_blank'>Dowiedz się, jak polecić dodanie lub korektę ustandaryzowanej nazwy miejsca.</a>",
+  "NONE_OF_THE_ABOVE": "Żadne z powyższych",
+  "NO_STANDARD_DATE_AVAILABLE": "Nieustandaryzowana data",
+  "NO_STANDARD_PLACE_AVAILABLE": "Nieustandaryzowana nazwa miejsca",
+  "NO_STANDARD_SELECTED": "Nie wybrano formy ustandaryzowanej.",
+  "PLACE_PLACEHOLDER": "Wpisz miejsce.",
+  "STANDARDIZED_DATE": "Ustandaryzowana data",
+  "STANDARDIZED_PLACE": "Ustandaryzowana nazwa miejsca",
+  "STANDARD_DATE_LABEL": "Ustandaryzowana data wydarzenia",
+  "STANDARD_PLACE_LABEL": "Ustandaryzowane miejsce wydarzenia"
+}
