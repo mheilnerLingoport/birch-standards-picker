@@ -1,0 +1,18 @@
+{
+  "DATE_PLACEHOLDER": "Zadejte datum.",
+  "EVENT_DATE_LABEL": "Datum události",
+  "EVENT_PLACE_LABEL": "Místo události",
+  "HELPLET_DATE": "Zadejte datum v jednom ze standardizovaných formátů. Například:<br /><ul style='padding-left: 10px;'><li>24. června 1962</li><li>červen 1962</li><li>1962</li><li>okolo roku 1962</li><li>před rokem 1962</li><li>po roce 1962</li><li>mezi lety 1961 a 1962</li></ul><a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized dates.' target='_blank'>Zjistěte více o standardizovaném zápisu dat</a>.<br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Learn what to do when you do not know an exact date.' target='_blank'>Zjistěte, co dělat, když neznáte přesné datum</a>.",
+  "HELPLET_PLACE": "Zadejte místo ve standardizovaném formátu. Například:<br /><ul style='padding-left: 10px;'><li>Mladá Boleslav, Středočeský kraj, Česká republika</li><li>Praha, Česká republika</li><li>Slovensko</li></ul><a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized places.' target='_blank'>Zjistěte více o standardizovaném zápisu míst</a>.<br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=How-do-I-recommend-an-addition-to-standardized-places-1381813455565&lang=en' title='Learn how to recommend an addition or correction to standardized places.' target='_blank'>Zjistěte, jak doporučit přídavek ke standardizovanému zápisu místa nebo jeho opravu</a>.",
+  "HELPLET_STANDARDIZED_DATE": "Pokud je standardizované datum nesprávné nebo nevyplněné, vyberte standardní formát, který nejlépe odpovídá vámi zadanému datu.<br /> <br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized dates.' target='_blank'>Zjistěte více o standardizovaném zápisu dat</a>.<br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Learn what to do when you do not know an exact date.' target='_blank'>Zjistěte, co dělat, když neznáte přesné datum</a>.",
+  "HELPLET_STANDARDIZED_PLACE": "Pokud je standardizované místo nesprávné nebo nevyplněné, vyberte standardní formát, který nejlépe odpovídá vámi zadanému místu.<br /> <br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized places.' target='_blank'>Zjistěte více o standardizovaném zápisu míst</a>.<br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=How-do-I-recommend-an-addition-to-standardized-places-1381813455565&lang=en' title='Learn how to recommend an addition or correction to standardized places.' target='_blank'>Zjistěte, jak doporučit přídavek ke standardizovanému zápisu místa nebo jeho opravu</a>.",
+  "NONE_OF_THE_ABOVE": "Nic z výše uvedeného",
+  "NO_STANDARD_DATE_AVAILABLE": "Nestandardizované datum",
+  "NO_STANDARD_PLACE_AVAILABLE": "Nestandardizované místo",
+  "NO_STANDARD_SELECTED": "Není vybrán žádný standardizovaný formát.",
+  "PLACE_PLACEHOLDER": "Zadejte místo.",
+  "STANDARDIZED_DATE": "Standardizované datum",
+  "STANDARDIZED_PLACE": "Standardizované místo",
+  "STANDARD_DATE_LABEL": "Standardizované datum události",
+  "STANDARD_PLACE_LABEL": "Standardizované místo události"
+}
