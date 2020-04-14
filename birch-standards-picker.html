@@ -624,6 +624,16 @@ The following custom properties and mixins are available for styling:
           reflectToAttribute: true,
           type: Boolean,
           value: false
+        },
+
+        /**
+         * Override the language of the data lookup in the date and place api.
+         * If set to 'es' and the browser lang is set to 'en', the data entered would be Spanish.
+         * This is useful when we have records that have a different language than the
+         * browser language
+         */
+        langOverride: {
+          type: String
         }
       },
 
@@ -771,7 +781,7 @@ The following custom properties and mixins are available for styling:
 
       _fetchData: function (term, isProgramaticFetch) {
         var self = this;
-        var url = (self.customUrl || '/service/tree/tree-data/authorities/') + this.standardType + '?term=' + encodeURIComponent(term) + '&locale=' + this.lang;
+        var url = (self.customUrl || '/service/tree/tree-data/authorities/') + this.standardType + '?term=' + encodeURIComponent(term) + '&locale=' + (this.langOverride || this.lang);
         this._req('GET', url).then(function (data) {
           self._handleResponse(data, isProgramaticFetch);
         }).catch(function (err) {
