@@ -308,6 +308,7 @@ The following custom properties and mixins are available for styling:
       value="{{searchTerm::birch-typeahead:input}}"
       placeholder="[[_getPlaceholder(standardType, i18n, disabled)]]"
       options="[[_typeaheadOptions]]"
+      on-birch-typeahead:list-opened='_handleListOpened'
       on-birch-typeahead:input='_handleInput'
       on-birch-typeahead:cancel='_handleCancel'
       on-birch-typeahead:blur='_handleCancel'
@@ -490,6 +491,11 @@ The following custom properties and mixins are available for styling:
         standardType: {
           type: String,
           value: 'date'
+        },
+
+        scrollIntoViewIfNeededOnListOpen: {
+          type: Boolean,
+          value: false
         },
 
         /**
@@ -777,6 +783,39 @@ The following custom properties and mixins are available for styling:
         if (!e.detail.value.trim()) return;
         this.loading = true;
         this._fetchData(e.detail.value, isProgramaticFetch);
+      },
+
+      _handleListOpened: function (evt) {
+        if (this.scrollIntoViewIfNeededOnListOpen) {
+          // scroll into view if needed
+          // this has to be inside a set timeout so that the list will actually render being opened before we scroll into view
+          setTimeout(() => {
+            if (!this.$.typeahead) {
+              return;
+            }
+            let typeahead = this.$.typeahead;
+            let offsetParent = typeahead.offsetParent;
+            let offsetParentIsScrollable = (offsetParent.scrollHeight > offsetParent.clientHeight) && (window.getComputedStyle(offsetParent).overflowY !== 'hidden');
+
+            if (!offsetParentIsScrollable) {
+              return;
+            }
+
+            // we use the scrollHeight here because the typeahead menu is technically outside the typeahead's height because typeahead has overflow:hidden
+            let bottomOfTypeahead = typeahead.offsetTop + typeahead.scrollHeight;
+            let lastVisiblePixelInParent = offsetParent.scrollTop + offsetParent.clientHeight;
+
+            if (bottomOfTypeahead > lastVisiblePixelInParent) {
+              // scrolling is needed, so let's scroll :)
+              let scrollAmount = bottomOfTypeahead - lastVisiblePixelInParent;
+              if (typeahead.scrollHeight > offsetParent.clientHeight) {
+                // only scroll to the input top since the screen is shorter than the height of the typeahead.
+                scrollAmount = typeahead.offsetTop - offsetParent.scrollTop;
+              }
+              offsetParent.scrollBy({top: scrollAmount, behavior: 'smooth'});
+            }
+          }, 0);
+        }
       },
 
       _fetchData: function (term, isProgramaticFetch) {
