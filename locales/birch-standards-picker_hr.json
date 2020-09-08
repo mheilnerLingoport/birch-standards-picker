@@ -1,0 +1,12 @@
+{
+  "A_NEW_KEY": "Tri nove riječi",
+  "DATE_PLACEHOLDER": "Unesite datum",
+  "EVENT_DATE_LABEL": "Datum događaja",
+  "EVENT_PLACE_LABEL": "Mjesto događaja",
+  "NO_STANDARD_DATE_AVAILABLE": "Nije dostupan standardizirani datum",
+  "NO_STANDARD_PLACE_AVAILABLE": "Nijedno standardizirano mjesto nije dostupno",
+  "NO_STANDARD_SELECTED": "Nije odabran standard",
+  "PLACE_PLACEHOLDER": "Unesite mjesto",
+  "STANDARD_DATE_LABEL": "Standardizirani datum događaja",
+  "STANDARD_PLACE_LABEL": "Standardizirano mjesto događaja"
+}

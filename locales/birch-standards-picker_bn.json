@@ -1,0 +1,12 @@
+{
+  "A_NEW_KEY": "তিনটি নতুন শব্দ",
+  "DATE_PLACEHOLDER": "একটি তারিখ লিখুন",
+  "EVENT_DATE_LABEL": "ইভেন্ট তারিখ",
+  "EVENT_PLACE_LABEL": "ইভেন্ট প্লেস",
+  "NO_STANDARD_DATE_AVAILABLE": "কোন প্রমিত তারিখ উপলব্ধ নেই",
+  "NO_STANDARD_PLACE_AVAILABLE": "কোন প্রমিত জায়গা পাওয়া যায় না",
+  "NO_STANDARD_SELECTED": "কোন মান নির্বাচন করা হয়",
+  "PLACE_PLACEHOLDER": "একটি স্থান লিখুন",
+  "STANDARD_DATE_LABEL": "প্রমিত ইভেন্ট তারিখ",
+  "STANDARD_PLACE_LABEL": "স্ট্যান্ডার্ডাইজড ইভেন্ট প্লেস"
+}

@@ -1,0 +1,12 @@
+{
+  "A_NEW_KEY": "Три нови думи",
+  "DATE_PLACEHOLDER": "Въведете дата",
+  "EVENT_DATE_LABEL": "Дата на събитието",
+  "EVENT_PLACE_LABEL": "Място на събитието",
+  "NO_STANDARD_DATE_AVAILABLE": "Няма стандартизирана дата",
+  "NO_STANDARD_PLACE_AVAILABLE": "Няма стандартизирано място",
+  "NO_STANDARD_SELECTED": "Не е избран стандарт",
+  "PLACE_PLACEHOLDER": "Въведете място",
+  "STANDARD_DATE_LABEL": "Стандартизирана дата на събитието",
+  "STANDARD_PLACE_LABEL": "Стандартизирано място на събитието"
+}

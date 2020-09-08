@@ -1,0 +1,12 @@
+{
+  "A_NEW_KEY": "तीन नए शब्द",
+  "DATE_PLACEHOLDER": "एक तिथि दर्ज करें",
+  "EVENT_DATE_LABEL": "घटना की तारीख",
+  "EVENT_PLACE_LABEL": "घटना जगह",
+  "NO_STANDARD_DATE_AVAILABLE": "कोई मानकीकृत तिथि उपलब्ध नहीं है",
+  "NO_STANDARD_PLACE_AVAILABLE": "कोई मानकीकृत स्थान उपलब्ध नहीं है",
+  "NO_STANDARD_SELECTED": "कोई मानक चयनित नहीं है",
+  "PLACE_PLACEHOLDER": "एक जगह दर्ज करें",
+  "STANDARD_DATE_LABEL": "मानकीकृत घटना तिथि",
+  "STANDARD_PLACE_LABEL": "मानकीकृत घटना स्थान"
+}

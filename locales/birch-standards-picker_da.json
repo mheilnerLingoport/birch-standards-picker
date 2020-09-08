@@ -1,0 +1,12 @@
+{
+  "A_NEW_KEY": "Tre nye ord",
+  "DATE_PLACEHOLDER": "Indtast en dato",
+  "EVENT_DATE_LABEL": "Dato for begivenhed",
+  "EVENT_PLACE_LABEL": "Begivenhed sted",
+  "NO_STANDARD_DATE_AVAILABLE": "Ingen standardiseret dato er tilgængelig",
+  "NO_STANDARD_PLACE_AVAILABLE": "Der er ikke noget standardiseret sted til rådighed",
+  "NO_STANDARD_SELECTED": "Ingen standard er valgt",
+  "PLACE_PLACEHOLDER": "Indtast et sted",
+  "STANDARD_DATE_LABEL": "Standardiseret hændelsesdato",
+  "STANDARD_PLACE_LABEL": "Standardiseret hændelsessted"
+}

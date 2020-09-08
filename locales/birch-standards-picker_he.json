@@ -1,0 +1,12 @@
+{
+  "A_NEW_KEY": "שלוש מילים חדשות",
+  "DATE_PLACEHOLDER": "הזן תאריך",
+  "EVENT_DATE_LABEL": "תאריך אירוע",
+  "EVENT_PLACE_LABEL": "מקום האירוע",
+  "NO_STANDARD_DATE_AVAILABLE": "אין תאריך מתוקנן זמין",
+  "NO_STANDARD_PLACE_AVAILABLE": "אין מקום סטנדרטי זמין",
+  "NO_STANDARD_SELECTED": "לא נבחר תקן",
+  "PLACE_PLACEHOLDER": "הזן מקום",
+  "STANDARD_DATE_LABEL": "תאריך אירוע מתוקנן",
+  "STANDARD_PLACE_LABEL": "מקום אירוע סטנדרטי"
+}

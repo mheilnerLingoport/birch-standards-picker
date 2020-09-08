@@ -1,0 +1,12 @@
+{
+  "A_NEW_KEY": "ثلاث كلمات جديدة",
+  "DATE_PLACEHOLDER": "أدخل تاريخ",
+  "EVENT_DATE_LABEL": "تاريخ الحدث",
+  "EVENT_PLACE_LABEL": "مكان الحدث",
+  "NO_STANDARD_DATE_AVAILABLE": "لا يوجد تاريخ موحد",
+  "NO_STANDARD_PLACE_AVAILABLE": "لا يوجد مكان موحد",
+  "NO_STANDARD_SELECTED": "لم يتم تحديد أي معيار",
+  "PLACE_PLACEHOLDER": "ادخل مكاناً",
+  "STANDARD_DATE_LABEL": "تاريخ الحدث الموحد",
+  "STANDARD_PLACE_LABEL": "مكان الحدث الموحد"
+}

@@ -1,12 +1,12 @@
 {
-  "_LRM_PKTAG968": "birch-standards-picker_1_156 - FULL-FILE",
+  "PLACE_PLACEHOLDER": "輸入地點",
+  "A_NEW_KEY": "三个新词",
   "DATE_PLACEHOLDER": "輸入日期",
-  "EVENT_DATE_LABEL": "事項日期",
-  "EVENT_PLACE_LABEL": "事項地點",
   "NO_STANDARD_DATE_AVAILABLE": "無法取得標準化日期",
   "NO_STANDARD_PLACE_AVAILABLE": "無法取得標準化地點",
   "NO_STANDARD_SELECTED": "未選取標準",
-  "PLACE_PLACEHOLDER": "輸入地點",
+  "EVENT_DATE_LABEL": "事項日期",
+  "EVENT_PLACE_LABEL": "事項地點",
   "STANDARD_DATE_LABEL": "標準化事項日期",
   "STANDARD_PLACE_LABEL": "標準化事項地點"
 }

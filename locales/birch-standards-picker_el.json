@@ -1,0 +1,12 @@
+{
+  "A_NEW_KEY": "Τρεις νέες λέξεις",
+  "DATE_PLACEHOLDER": "Εισάγετε μια ημερομηνία",
+  "EVENT_DATE_LABEL": "Ημερομηνία Εκδήλωσης",
+  "EVENT_PLACE_LABEL": "Τόπος Εκδήλωσης",
+  "NO_STANDARD_DATE_AVAILABLE": "Δεν υπάρχει διαθέσιμη τυποποιημένη ημερομηνία",
+  "NO_STANDARD_PLACE_AVAILABLE": "Δεν υπάρχει διαθέσιμη τυποποιημένη θέση",
+  "NO_STANDARD_SELECTED": "Δεν έχει επιλεγεί πρότυπο",
+  "PLACE_PLACEHOLDER": "Εισαγάγετε ένα μέρος",
+  "STANDARD_DATE_LABEL": "Τυποποιημένη Ημερομηνία Εκδήλωσης",
+  "STANDARD_PLACE_LABEL": "Τυποποιημένο Μέρος Εκδήλωσης"
+}

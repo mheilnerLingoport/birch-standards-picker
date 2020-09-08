@@ -1,0 +1,12 @@
+{
+  "A_NEW_KEY": "Három új szó",
+  "DATE_PLACEHOLDER": "Adjon meg egy dátumot",
+  "EVENT_DATE_LABEL": "Esemény dátuma",
+  "EVENT_PLACE_LABEL": "Rendezvény helye",
+  "NO_STANDARD_DATE_AVAILABLE": "Nem áll rendelkezésre szabványosított dátum",
+  "NO_STANDARD_PLACE_AVAILABLE": "Nem áll rendelkezésre szabványosított hely",
+  "NO_STANDARD_SELECTED": "Nincs kiválasztva szabvány",
+  "PLACE_PLACEHOLDER": "Adjon meg egy helyet",
+  "STANDARD_DATE_LABEL": "Szabványosított esemény dátuma",
+  "STANDARD_PLACE_LABEL": "Szabványosított rendezvény helye"
+}
