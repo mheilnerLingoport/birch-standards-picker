@@ -1,0 +1,12 @@
+{
+  "A_NEW_KEY": "Tre fjalë të reja",
+  "DATE_PLACEHOLDER": "Futni një datë",
+  "EVENT_DATE_LABEL": "Data e ngjarjes",
+  "EVENT_PLACE_LABEL": "Vendi i ngjarjes",
+  "NO_STANDARD_DATE_AVAILABLE": "Asnjë datë e standardizuar nuk është në dispozicion",
+  "NO_STANDARD_PLACE_AVAILABLE": "Asnjë vend i standardizuar nuk është në dispozicion",
+  "NO_STANDARD_SELECTED": "Asnjë standard nuk është zgjedhur",
+  "PLACE_PLACEHOLDER": "Shkruani një vend",
+  "STANDARD_DATE_LABEL": "Data e standardizuar e ngjarjes",
+  "STANDARD_PLACE_LABEL": "Vendi i standardizuar i ngjarjeve"
+}

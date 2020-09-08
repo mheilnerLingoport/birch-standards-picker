@@ -1,0 +1,12 @@
+{
+  "A_NEW_KEY": "Drie nuwe woorde",
+  "DATE_PLACEHOLDER": "Invoer 'n datum",
+  "EVENT_DATE_LABEL": "Gebeurtenis Datum",
+  "EVENT_PLACE_LABEL": "Gebeurtenis Plek",
+  "NO_STANDARD_DATE_AVAILABLE": "Geen gestandaardiseerde datum is beskikbaar nie",
+  "NO_STANDARD_PLACE_AVAILABLE": "Geen gestandaardiseerde plek is beskikbaar",
+  "NO_STANDARD_SELECTED": "Nee standaard is gekies nie",
+  "PLACE_PLACEHOLDER": "Tik 'n plek",
+  "STANDARD_DATE_LABEL": "Gestandaardiseerde Gebeurtenis Datum",
+  "STANDARD_PLACE_LABEL": "Gestandaardiseerde Gebeurtenisplek"
+}
