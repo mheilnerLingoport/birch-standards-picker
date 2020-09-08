@@ -1,0 +1,12 @@
+{
+  "A_NEW_KEY": "மூன்று புதிய வார்த்தைகள்",
+  "DATE_PLACEHOLDER": "தேதியை உள்ளிடவும்",
+  "EVENT_DATE_LABEL": "நிகழ்வு தேதி",
+  "EVENT_PLACE_LABEL": "நிகழ்வு இடம்",
+  "NO_STANDARD_DATE_AVAILABLE": "தரப்படுத்தப்பட்ட தேதி கிடைக்கவில்லை",
+  "NO_STANDARD_PLACE_AVAILABLE": "தரப்படுத்தப்பட்ட இடம் கிடைக்கவில்லை",
+  "NO_STANDARD_SELECTED": "தரநிலை எதுவும் தேர்ந்தெடுக்கப்படவில்லை",
+  "PLACE_PLACEHOLDER": "ஒரு இடத்தை உள்ளிடவும்",
+  "STANDARD_DATE_LABEL": "தரப்படுத்தப்பட்ட நிகழ்வு தேதி",
+  "STANDARD_PLACE_LABEL": "தரப்படுத்தப்பட்ட நிகழ்வு இடம்"
+}
