@@ -1,0 +1,18 @@
+{
+  "DATE_PLACEHOLDER": "Ievadiet datumu.",
+  "EVENT_DATE_LABEL": "Notikuma datums",
+  "EVENT_PLACE_LABEL": "Pasākuma vieta",
+  "HELPLET_DATE": "Ievadiet datumu vienā no standartizētajiem formātiem. Piemēram:<br /><ul style='padding-left: 10px;'><li>24 jūnijs 1962</li><li>jūnijs 1962</li><li>Par<li>1962</li>Pirms 1962</li><li>Pēc 1962</li><li>Pēc 1962</li><li>No 1961 līdz 1962</li></ul><a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized dates.' target='_blank'>Uzziniet vairāk par datumu standartizēšanu.</a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Learn what to do when you do not know an exact date.' target='_blank'>Uzziniet, kā rīkoties, ja nezināt precīzu datumu.</a>",
+  "HELPLET_PLACE": "Ievadiet vietu standartizētā formātā. Piemēram:<br /><ul style='padding-left: 10px;'><li>Rochdale, Lankašīra, Anglija</li><li>Bordo, Francija</li><li>Brazīlija</li></ul><a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized places.' target='_blank'>Uzziniet vairāk par vietu standartizēšanu.</a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=How-do-I-recommend-an-addition-to-standardized-places-1381813455565&lang=en' title='Learn how to recommend an addition or correction to standardized places.' target='_blank'>Uzziniet, kā ieteikt papildinājumu vai labojumu standartizētas vietas.</a>",
+  "HELPLET_STANDARDIZED_DATE": "Ja standartizētais datums ir nepareizs vai tukšs, atlasiet standartu, kas vislabāk atbilst ievadītajam datumam.<br /> <br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized dates.' target='_blank'>Uzziniet vairāk par datumu standartizēšanu.</a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Learn what to do when you do not know an exact date.' target='_blank'>Uzziniet, kā rīkoties, ja nezināt precīzu datumu.</a>",
+  "HELPLET_STANDARDIZED_PLACE": "Ja standartizētā vieta ir nepareiza vai tukša, izvēlieties standartu, kas vislabāk atbilst ievadītajai vietai.<br /> <br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized places.' target='_blank'>Uzziniet vairāk par vietu standartizēšanu.</a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=How-do-I-recommend-an-addition-to-standardized-places-1381813455565&lang=en' title='Learn how to recommend an addition or correction to standardized places.' target='_blank'>Uzziniet, kā ieteikt papildinājumu vai labojumu standartizētas vietas.</a>",
+  "NONE_OF_THE_ABOVE": "Neviens no iepriekš minētajiem",
+  "NO_STANDARD_DATE_AVAILABLE": "Nestandartizēts datums",
+  "NO_STANDARD_PLACE_AVAILABLE": "Nestandartizēta vieta",
+  "NO_STANDARD_SELECTED": "Standarts nav izvēlēts.",
+  "PLACE_PLACEHOLDER": "Ievadiet vietu.",
+  "STANDARDIZED_DATE": "Standartizēts datums",
+  "STANDARDIZED_PLACE": "Standartizēta vieta",
+  "STANDARD_DATE_LABEL": "Standartizēta notikuma datums",
+  "STANDARD_PLACE_LABEL": "Standartizēta pasākuma vieta"
+}

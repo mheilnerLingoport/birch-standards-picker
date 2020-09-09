@@ -1,0 +1,18 @@
+{
+  "DATE_PLACEHOLDER": "Masukkan tanggal.",
+  "EVENT_DATE_LABEL": "Tanggal Acara",
+  "EVENT_PLACE_LABEL": "Tempat Acara",
+  "HELPLET_DATE": "Masukkan tanggal di salah satu format standar. Sebagai contoh:<br /><ul style='padding-left: 10px;'><li>24 Juni 1962</li><li>Juni<li>1962</li></li><li>Tentang 1962</li><li>Sebelum 1962</li><li>Setelah 1962</li><li>Antara 1961 dan 1962</li></ul><a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized dates.' target='_blank'>Pelajari lebih lanjut tentang standarisasi tanggal.</a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Learn what to do when you do not know an exact date.' target='_blank'>Pelajari apa yang harus dilakukan bila Anda tidak tahu tanggal pastinya.</a>",
+  "HELPLET_PLACE": "Masukkan tempat dalam format standar. Sebagai contoh:<br /><ul style='padding-left: 10px;'><li>Rochdale, Lancashire, England</li><li>Bordeaux, Perancis</li><li>Brazil</li></ul><a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized places.' target='_blank'>Pelajari lebih lanjut tentang standarisasi tempat.</a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=How-do-I-recommend-an-addition-to-standardized-places-1381813455565&lang=en' title='Learn how to recommend an addition or correction to standardized places.' target='_blank'>Pelajari cara merekomendasikan penambahan atau koreksi ke tempat standar.</a>",
+  "HELPLET_STANDARDIZED_DATE": "Jika tanggal standar salah atau kosong, pilih standar yang paling sesuai dengan tanggal yang Anda masukkan.<br /> <br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized dates.' target='_blank'>Pelajari lebih lanjut tentang standarisasi tanggal.</a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Learn what to do when you do not know an exact date.' target='_blank'>Pelajari apa yang harus dilakukan bila Anda tidak tahu tanggal pastinya.</a>",
+  "HELPLET_STANDARDIZED_PLACE": "Jika tempat standar salah atau kosong, pilih standar yang paling sesuai dengan tempat yang Anda masukkan.<br /> <br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized places.' target='_blank'>Pelajari lebih lanjut tentang standarisasi tempat.</a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=How-do-I-recommend-an-addition-to-standardized-places-1381813455565&lang=en' title='Learn how to recommend an addition or correction to standardized places.' target='_blank'>Pelajari cara merekomendasikan penambahan atau koreksi ke tempat standar.</a>",
+  "NONE_OF_THE_ABOVE": "Tak satu pun di atas",
+  "NO_STANDARD_DATE_AVAILABLE": "Tanggal Nonstandarisasi",
+  "NO_STANDARD_PLACE_AVAILABLE": "Tempat Nonstandardized",
+  "NO_STANDARD_SELECTED": "Tidak ada standar yang dipilih.",
+  "PLACE_PLACEHOLDER": "Masukkan suatu tempat.",
+  "STANDARDIZED_DATE": "Tanggal Standar",
+  "STANDARDIZED_PLACE": "Tempat Standar",
+  "STANDARD_DATE_LABEL": "Tanggal Acara Standar",
+  "STANDARD_PLACE_LABEL": "Tempat Acara Standar"
+}
