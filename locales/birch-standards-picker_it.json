@@ -1,12 +1,12 @@
 {
-  "_LRM_PKTAG415": "birch-standards-picker_1_151 - FULL-FILE",
+  "PLACE_PLACEHOLDER": "Inserisci un luogo",
+  "A_NEW_KEY": "Tre nuove parole",
   "DATE_PLACEHOLDER": "Inserisci una data",
-  "EVENT_DATE_LABEL": "Data dell’evento",
-  "EVENT_PLACE_LABEL": "Luogo dell’evento",
   "NO_STANDARD_DATE_AVAILABLE": "Non è disponibile nessuna data standardizzata",
   "NO_STANDARD_PLACE_AVAILABLE": "Non è disponibile nessun luogo standardizzato",
   "NO_STANDARD_SELECTED": "Nessuno standard è stato scelto",
-  "PLACE_PLACEHOLDER": "Inserisci un luogo",
+  "EVENT_DATE_LABEL": "Data dell’evento",
+  "EVENT_PLACE_LABEL": "Luogo dell’evento",
   "STANDARD_DATE_LABEL": "Data standardizzata dell’evento",
   "STANDARD_PLACE_LABEL": "Luogo standardizzato dell’evento"
 }
