@@ -1,0 +1,12 @@
+{
+  "DATE_PLACEHOLDER": "Ievadiet datumu",
+  "EVENT_DATE_LABEL": "Notikuma datums",
+  "EVENT_PLACE_LABEL": "Pasākuma vieta",
+  "NONE_OF_THE_ABOVE": "Neviens no iepriekš minētajiem",
+  "NO_STANDARD_DATE_AVAILABLE": "Standartizēts datums nav pieejams",
+  "NO_STANDARD_PLACE_AVAILABLE": "Standartizēta vieta nav pieejama",
+  "NO_STANDARD_SELECTED": "Standarts nav izvēlēts",
+  "PLACE_PLACEHOLDER": "Ievadiet vietu",
+  "STANDARD_DATE_LABEL": "Standartizēta notikuma datums",
+  "STANDARD_PLACE_LABEL": "Standartizēta pasākuma vieta"
+}
