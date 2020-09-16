@@ -1,0 +1,12 @@
+{
+  "DATE_PLACEHOLDER": "Maglagay ng petsa",
+  "EVENT_DATE_LABEL": "Petsa ng Kaganapan",
+  "EVENT_PLACE_LABEL": "Lugar ng Kaganapan",
+  "NONE_OF_THE_ABOVE": "Wala sa mga nasa itaas",
+  "NO_STANDARD_DATE_AVAILABLE": "Walang available na standardized date",
+  "NO_STANDARD_PLACE_AVAILABLE": "Walang available na standardized na lugar",
+  "NO_STANDARD_SELECTED": "Walang pamantayan ang napili",
+  "PLACE_PLACEHOLDER": "Magpasok ng lugar",
+  "STANDARD_DATE_LABEL": "Standardized Event Petsa",
+  "STANDARD_PLACE_LABEL": "Standardized na lugar ng kaganapan"
+}

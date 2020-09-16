@@ -1,0 +1,12 @@
+{
+  "DATE_PLACEHOLDER": "Bir tarih girin",
+  "EVENT_DATE_LABEL": "Etkinlik Tarihi",
+  "EVENT_PLACE_LABEL": "Etkinlik Yeri",
+  "NONE_OF_THE_ABOVE": "Yukarıdakilerin hiçbiri",
+  "NO_STANDARD_DATE_AVAILABLE": "Standart bir tarih mevcut değil",
+  "NO_STANDARD_PLACE_AVAILABLE": "Standart bir yer bulunmamaktadır",
+  "NO_STANDARD_SELECTED": "Standart seçili değil",
+  "PLACE_PLACEHOLDER": "Bir yer girin",
+  "STANDARD_DATE_LABEL": "Standartlaştırılmış Etkinlik Tarihi",
+  "STANDARD_PLACE_LABEL": "Standartlaştırılmış Etkinlik Yeri"
+}
