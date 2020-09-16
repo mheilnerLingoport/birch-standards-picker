@@ -1,12 +1,12 @@
 {
+  "PLACE_PLACEHOLDER": "Ievadiet vietu",
   "A_NEW_KEY": "Trīs jauni vārdi",
   "DATE_PLACEHOLDER": "Ievadiet datumu",
-  "EVENT_DATE_LABEL": "Notikuma datums",
-  "EVENT_PLACE_LABEL": "Pasākuma vieta",
   "NO_STANDARD_DATE_AVAILABLE": "Standartizēts datums nav pieejams",
   "NO_STANDARD_PLACE_AVAILABLE": "Standartizēta vieta nav pieejama",
   "NO_STANDARD_SELECTED": "Standarts nav izvēlēts",
-  "PLACE_PLACEHOLDER": "Ievadiet vietu",
+  "EVENT_DATE_LABEL": "Notikuma datums",
+  "EVENT_PLACE_LABEL": "Pasākuma vieta",
   "STANDARD_DATE_LABEL": "Standartizēta notikuma datums",
-  "STANDARD_PLACE_LABEL": "Standartizēta pasākuma vieta"
+  "STANDARD_PLACE_LABEL": "Standartizēta notikuma vieta atkārtoti modificēta"
 }

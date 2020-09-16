@@ -1,12 +1,12 @@
 {
+  "PLACE_PLACEHOLDER": "Bir yer daxil edin",
   "A_NEW_KEY": "Üç yeni söz",
   "DATE_PLACEHOLDER": "Tarix daxil edin",
-  "EVENT_DATE_LABEL": "Tədbirin tarixi",
-  "EVENT_PLACE_LABEL": "Hadisə yeri",
   "NO_STANDARD_DATE_AVAILABLE": "Heç bir standart tarix mövcud deyil",
   "NO_STANDARD_PLACE_AVAILABLE": "Heç bir standart yer yoxdur",
   "NO_STANDARD_SELECTED": "Heç bir standart seçilmir",
-  "PLACE_PLACEHOLDER": "Bir yer daxil edin",
+  "EVENT_DATE_LABEL": "Tədbirin tarixi",
+  "EVENT_PLACE_LABEL": "Hadisə yeri",
   "STANDARD_DATE_LABEL": "Standartlaşdırılmış Tədbir Tarixi",
-  "STANDARD_PLACE_LABEL": "Standartlaşdırılmış Tədbir Yeri"
+  "STANDARD_PLACE_LABEL": "Standartlaşdırılmış Hadisə Yeri Yenə dəyişdirildi"
 }
