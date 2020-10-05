@@ -1,12 +1,13 @@
 {
+  "PLACE_PLACEHOLDER": "ቦታ አስገባ",
   "A_NEW_KEY": "ሶስት አዳዲስ ቃላት",
   "DATE_PLACEHOLDER": "ቀን አስገባ",
-  "EVENT_DATE_LABEL": "የክስተት ቀን",
-  "EVENT_PLACE_LABEL": "የክስተት ቦታ",
   "NO_STANDARD_DATE_AVAILABLE": "ምንም መደበኛ ቀን አይገኝም",
   "NO_STANDARD_PLACE_AVAILABLE": "ምንም ደረጃውን የጠበቀ ቦታ አይገኝም",
   "NO_STANDARD_SELECTED": "ምንም መስፈርት አልተመረጠም",
-  "PLACE_PLACEHOLDER": "ቦታ አስገባ",
+  "EVENT_DATE_LABEL": "የክስተት ቀን",
+  "EVENT_PLACE_LABEL": "የክስተት ቦታ",
   "STANDARD_DATE_LABEL": "ደረጃውን የጠበቀ የክስተት ቀን",
-  "STANDARD_PLACE_LABEL": "ደረጃውን የጠበቀ የክስተት ቦታ"
+  "STANDARD_PLACE_LABEL": "ደረጃውን የጠበቀ የክስተት ቦታ",
+  "MARY_KEY": "ዋጋ"
 }
