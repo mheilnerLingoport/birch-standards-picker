@@ -8,5 +8,6 @@
   "EVENT_DATE_LABEL": "Datum události",
   "EVENT_PLACE_LABEL": "Místo události",
   "STANDARD_DATE_LABEL": "Standardizované datum události",
-  "STANDARD_PLACE_LABEL": "Standardizované místo událostí"
+  "STANDARD_PLACE_LABEL": "Standardizované místo událostí",
+  "MARY_KEY": "Hodnota jedna, dva tři"
 }
