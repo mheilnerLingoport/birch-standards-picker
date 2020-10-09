@@ -1,13 +1,13 @@
 {
-  "A_NEW_KEY": "30.299 Three new words",
-  "DATE_PLACEHOLDER": "30.300 Enter a date",
-  "EVENT_DATE_LABEL": "30.304 Event Date",
-  "EVENT_PLACE_LABEL": "30.305 Event Place",
-  "MARY_KEY": "30.308 Value",
-  "NO_STANDARD_DATE_AVAILABLE": "30.301 No standardized date is available",
-  "NO_STANDARD_PLACE_AVAILABLE": "30.302 No standardized place is available",
-  "NO_STANDARD_SELECTED": "30.303 No standard is selected",
-  "PLACE_PLACEHOLDER": "30.298 Enter a place",
-  "STANDARD_DATE_LABEL": "30.306 Standardized Event Date",
-  "STANDARD_PLACE_LABEL": "30.307 Standardized Event Place MODIFIED AGAIN"
+  "A_NEW_KEY": "48.84 Three new words",
+  "DATE_PLACEHOLDER": "48.85 Enter a date",
+  "EVENT_DATE_LABEL": "48.89 Event Date",
+  "EVENT_PLACE_LABEL": "48.90 Event Place",
+  "MARY_KEY": "48.93 Value",
+  "NO_STANDARD_DATE_AVAILABLE": "48.86 No standardized date is available",
+  "NO_STANDARD_PLACE_AVAILABLE": "48.87 No standardized place is available",
+  "NO_STANDARD_SELECTED": "48.88 No standard is selected",
+  "PLACE_PLACEHOLDER": "48.83 Enter a place",
+  "STANDARD_DATE_LABEL": "48.91 Standardized Event Date",
+  "STANDARD_PLACE_LABEL": "48.92 Standardized Event Place MODIFIED AGAIN"
 }
