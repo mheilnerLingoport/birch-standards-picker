@@ -1,0 +1,22 @@
+{
+  "DATE_PLACEHOLDER": "Introduce una fecha.",
+  "DUPE_1": "algún valor",
+  "DUPE_10": "otro valor",
+  "EVENT_DATE_LABEL": "Fecha del Evento",
+  "EVENT_PLACE_LABEL": "Lugar de Evento",
+  "HELPLET_DATE": "Introduce la fecha en uno de los formatos estandarizados. Por ejemplo:<br /><ul style='padding-left: 10px;'><li>24 junio 1962</li><li>junio 1962</li><li>Acerca de<li>1962</li></li><li>Antes de 1962</li><li>Después de 1962</li><li>Entre 1961 y 1962</li></ul> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized dates.' target='_blank'>Conoce más sobre la estandarización de fechas. </a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Learn what to do when you do not know an exact date.' target='_blank'>Aprende qué hacer cuando no conozcas una fecha exacta. </a>",
+  "HELPLET_PLACE": "Entrar al lugar en un formato estandarizado. Por ejemplo:<br /><ul style='padding-left: 10px;'><li>Rochdale, Lancashire, Inglaterra</li><li>Burdeos, Francia</li><li>Brasil</li></ul> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized places.' target='_blank'>Conoce más sobre la estandarización de lugares. </a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=How-do-I-recommend-an-addition-to-standardized-places-1381813455565&lang=en' title='Learn how to recommend an addition or correction to standardized places.' target='_blank'>Aprende a recomendar una adición o corrección a plazas estandarizadas. </a>",
+  "HELPLET_STANDARDIZED_DATE": "Si la fecha estandarizada es incorrecta o está en blanco, selecciona un estándar que mejor coincida con la fecha que ingresaste. <br /> <br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized dates.' target='_blank'>Conoce más sobre la estandarización de fechas. </a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Learn what to do when you do not know an exact date.' target='_blank'>Aprende qué hacer cuando no conozcas una fecha exacta. </a>",
+  "HELPLET_STANDARDIZED_PLACE": "Si el lugar estandarizado es incorrecto o está en blanco, selecciona un estándar que mejor coincida con el lugar que ingresaste. <br /> <br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized places.' target='_blank'>Conoce más sobre la estandarización de lugares. </a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=How-do-I-recommend-an-addition-to-standardized-places-1381813455565&lang=en' title='Learn how to recommend an addition or correction to standardized places.' target='_blank'>Aprende a recomendar una adición o corrección a plazas estandarizadas. </a>",
+  "NONE_OF_THE_ABOVE": "Ninguno de los anteriores",
+  "NO_STANDARD_DATE_AVAILABLE": "Fecha no estandarizada",
+  "NO_STANDARD_PLACE_AVAILABLE_TOTALLY_UNIQUE": "Lugar no estandarizado",
+  "NO_STANDARD_SELECTED": "No se selecciona ninguna norma.",
+  "PLACE_PLACEHOLDER": "Entra a un lugar. ",
+  "PLACE_PLACEHOLDER_TOTALLY_UNIQUE": "Dupe.",
+  "STANDARDIZED_DATE": "Fecha estandarizada",
+  "STANDARDIZED_PLACE": "Lugar Estandarizado",
+  "STANDARDIZED_PLACE_TOTALLY_UNIQUE": "Dup",
+  "STANDARD_DATE_LABEL": "Fecha del Evento Estandarizado",
+  "STANDARD_PLACE_LABEL": "Lugar de Evento Estandarizado"
+}

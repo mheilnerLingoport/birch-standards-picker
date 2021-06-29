@@ -1,0 +1,22 @@
+{
+  "DATE_PLACEHOLDER": "Ange ett datum.",
+  "DUPE_1": "visst värde",
+  "DUPE_10": "ett annat värde",
+  "EVENT_DATE_LABEL": "Datum för evenemanget",
+  "EVENT_PLACE_LABEL": "Plats för event",
+  "HELPLET_DATE": "Ange datumet i ett av de standardiserade formaten. Till exempel:<br /><ul style='padding-left: 10px;'><li>24 juni 1962</li><li>Juni 1962</li><li>1962</li><li>Om 1962</li><li>Före 1962</li><li>Efter 1962</li><li>Mellan 1961 och 1962</li></ul> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized dates.' target='_blank'>Läs mer om att standardisera datum. </a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Learn what to do when you do not know an exact date.' target='_blank'>Lär dig vad du ska göra när du inte vet ett exakt datum. </a>",
+  "HELPLET_PLACE": "Ange platsen i ett standardiserat format. Till exempel:<br /><ul style='padding-left: 10px;'><li>Rochdale, Lancashire, England</li><li>Bordeaux, Frankrike</li><li>Brasilien</li></ul> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized places.' target='_blank'>Läs mer om att standardisera platser. </a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=How-do-I-recommend-an-addition-to-standardized-places-1381813455565&lang=en' title='Learn how to recommend an addition or correction to standardized places.' target='_blank'>Läs om hur du rekommenderar tillägg eller korrigering till standardiserade platser. </a>",
+  "HELPLET_STANDARDIZED_DATE": "Om det standardiserade datumet är fel eller tomt väljer du en standard som bäst matchar det datum du angav. <br /> <br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized dates.' target='_blank'>Läs mer om att standardisera datum. </a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Do-not-know-exact-birth-date-or-death-date&lang=en' title='Learn what to do when you do not know an exact date.' target='_blank'>Lär dig vad du ska göra när du inte vet ett exakt datum. </a>",
+  "HELPLET_STANDARDIZED_PLACE": "Om den standardiserade platsen är fel eller tom väljer du en standard som bäst matchar den plats du angav. <br /> <br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=Entering-Standardized-Dates-and-Places&lang=en' title='Learn more about standardized places.' target='_blank'>Läs mer om att standardisera platser. </a><br /> <a href='https://www.familysearch.org/ask/salesforce/viewArticle?urlname=How-do-I-recommend-an-addition-to-standardized-places-1381813455565&lang=en' title='Learn how to recommend an addition or correction to standardized places.' target='_blank'>Läs om hur du rekommenderar tillägg eller korrigering till standardiserade platser. </a>",
+  "NONE_OF_THE_ABOVE": "Inget av ovanstående",
+  "NO_STANDARD_DATE_AVAILABLE": "Icke-standardiserat datum",
+  "NO_STANDARD_PLACE_AVAILABLE_TOTALLY_UNIQUE": "Icke-standardiserad plats",
+  "NO_STANDARD_SELECTED": "Ingen standard är vald.",
+  "PLACE_PLACEHOLDER": "Gå in på en plats. ",
+  "PLACE_PLACEHOLDER_TOTALLY_UNIQUE": "Dupe.",
+  "STANDARDIZED_DATE": "Standardiserat datum",
+  "STANDARDIZED_PLACE": "Standardiserad plats",
+  "STANDARDIZED_PLACE_TOTALLY_UNIQUE": "Dupa",
+  "STANDARD_DATE_LABEL": "Standardiserat datum för",
+  "STANDARD_PLACE_LABEL": "Standardiserad händelse plats"
+}
