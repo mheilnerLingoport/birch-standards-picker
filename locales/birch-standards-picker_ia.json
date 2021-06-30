@@ -20,6 +20,7 @@
   "STANDARD_DATE_LABEL": "205.4551 Standardized Event Date",
   "STANDARD_PLACE_LABEL": "205.4552 Standardized Event Place",
   "mary.test.one": "205.4566 this key",
+  "mary.test.two": "205.4591 that key",
   "my.test.key": "205.4559 my test value",
   "my.test.key2": "205.4560 my test value2",
   "my.test.key3": "205.4561 again"
