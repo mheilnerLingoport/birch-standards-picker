@@ -13,7 +13,7 @@
   "STANDARDIZED_PLACE": "Nom de lieu normalisé",
   "STANDARDIZED_PLACE_TOTALLY_UNIQUE": "Dup",
   "STANDARDIZED_DATE": "Date normalisée",
-  "DUPE_1": "une certaine valeur",
+  "DUPE_1":"replaced certaine valeur",
   "DUPE_10": "une autre valeur",
   "my.test.key": "ma valeur de test",
   "my.test.key2": "ma valeur de test2",
