@@ -1,6 +1,7 @@
 {
   "PLACE_PLACEHOLDER":"Enter a place. ",
   "PLACE_PLACEHOLDER_TOTALLY_UNIQUE":"Dupe.",
+  "another.test.key":"value",
   "DATE_PLACEHOLDER":"Enter a date.",
   "NO_STANDARD_DATE_AVAILABLE":"Nonstandardized Date",
   "NO_STANDARD_PLACE_AVAILABLE_TOTALLY_UNIQUE":"Nonstandardized Place",
