@@ -1,6 +1,7 @@
 {
   "PLACE_PLACEHOLDER": "Geben Sie einen Ort ein.",
   "PLACE_PLACEHOLDER_TOTALLY_UNIQUE": "Dupe.",
+  "another.test.key": "Wert",
   "DATE_PLACEHOLDER": "Geben Sie ein Datum ein.",
   "NO_STANDARD_DATE_AVAILABLE": "Nicht standardisiertes Datum",
   "NO_STANDARD_PLACE_AVAILABLE_TOTALLY_UNIQUE": "Nicht standardisierter Ort",
